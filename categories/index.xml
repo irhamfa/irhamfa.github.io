@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Androcode</title>
+    <link>https://androcode.net/categories/</link>
+    <description>Recent content in Categories on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 04 Feb 2021 21:35:34 +0700</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Css</title>
+      <link>https://androcode.net/categories/css/</link>
+      <pubDate>Thu, 04 Feb 2021 21:35:34 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tailwindcss</title>
+      <link>https://androcode.net/categories/tailwindcss/</link>
+      <pubDate>Thu, 04 Feb 2021 21:35:34 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/tailwindcss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://androcode.net/categories/tips/</link>
+      <pubDate>Tue, 26 Jan 2021 08:30:33 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>https://androcode.net/categories/html/</link>
+      <pubDate>Tue, 20 Oct 2020 14:19:55 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SASS</title>
+      <link>https://androcode.net/categories/sass/</link>
+      <pubDate>Fri, 16 Oct 2020 14:01:29 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/sass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>https://androcode.net/categories/flask/</link>
+      <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://androcode.net/categories/python/</link>
+      <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://androcode.net/categories/mysql/</link>
+      <pubDate>Tue, 15 Sep 2020 13:56:56 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>https://androcode.net/categories/database/</link>
+      <pubDate>Sat, 12 Sep 2020 14:44:50 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PHP</title>
+      <link>https://androcode.net/categories/php/</link>
+      <pubDate>Sun, 09 Aug 2020 11:44:31 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C Sharp</title>
+      <link>https://androcode.net/categories/c-sharp/</link>
+      <pubDate>Fri, 24 Jul 2020 09:18:40 +0000</pubDate>
+      
+      <guid>https://androcode.net/categories/c-sharp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

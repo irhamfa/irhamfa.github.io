@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Androcode</title>
+    <link>https://androcode.net/</link>
+    <description>Recent content on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 04 Feb 2021 21:35:34 +0700</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Belajar-Tailwindcss</title>
+      <link>https://androcode.net/posts/belajar-tailwindcss/</link>
+      <pubDate>Thu, 04 Feb 2021 21:35:34 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-tailwindcss/</guid>
+      <description>Hallo saya hari ini lagi mencoba belajar Taulwindcss, saya awalnya sedikit kesulitan bagaimana installnya dan menggunakanya. Mungkin tulisan ini gak bisa jadi patokan bagaimana cara install dan penggunaanya dan saya lebih merekomendasika langsung dari Dokumentasi Tailwindcss itu sendiri.
+Kenapa gak pakai bootstrap aja ? Saya pribadi masih menggunakan bootstrap untuk belajar&amp;rdquo; dan saya belajar Tailwindcss karna ingin mengetahui dan mempelajari Framewrok-framewrok lain dari CSS gak ada kemungkinan nanti saya akan mempelajari yg lain.</description>
+    </item>
+    
+    <item>
+      <title>Manajemen Service Di Artix OpenRC</title>
+      <link>https://androcode.net/posts/service-di-artixopenrc/</link>
+      <pubDate>Tue, 26 Jan 2021 08:30:33 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/service-di-artixopenrc/</guid>
+      <description>Halo Semua kali ini saya akan membuat tulisan untukku sendiri atau sukur&amp;rdquo; dapat membantu teman&amp;rdquo; \u263A. Saya menemukan masalah ketika saya mencoba distro linux Artix(OpenRC) saya cukup bingung gimana carannya manajemen service di artix yg saya sebelumnya dari archlinux, mungkin cukup mudah karna saya cukup familiar dan sudah banyak blog&amp;rdquo; yang membahasnya. Saya akan meenginstall Mariadb dan bagaimana menjalankan servicnya di OpenRC.
+Pertama Install Mariadb terlebih dahulu sudo pacman -S mariadb mariadb-OpenRC Dan untuk melihat daftar service bisa melalukan Perintah</description>
+    </item>
+    
+    <item>
+      <title>Install Phpmyadmin Di Linux</title>
+      <link>https://androcode.net/posts/install-phpmyadmin/</link>
+      <pubDate>Fri, 22 Jan 2021 09:48:19 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/install-phpmyadmin/</guid>
+      <description>Saya meneruskan postingan sebelumnya yang membahas tentang install nginx php dan mysql dan kali ini saya akan membagikan cara install phpmyadmin di Linux.
+Install Phpmyadmin Untuk menginstall phpmyadmin langsung masukkan Perintah sudo pacman -S phpmyadmin
+jika sudah selesai bisa konfigurasikan PHP yaitu pastikan modul ekstensi mysqli dan pdo_mysql sudah aktif. Jika belum maka edit file /etc/php/php.ini lalu uncomment dua baris berikut :
+extension=pdo_mysql extension=mysqli lalu restart php-fpm
+sudo systemctl restart php-fpm Sub directory dengan symlink buat symlink dari /usr/share/webapps/phpMyadmin/ ke lokasi /usr/share/nginx/html/ dengan perintah</description>
+    </item>
+    
+    <item>
+      <title>Install Nginx, PHP Dan Mysql Di Archlinux</title>
+      <link>https://androcode.net/posts/install-nginx/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/install-nginx/</guid>
+      <description>Jadi saya membuat tutorial ini setelah saya ahirnya berhasil menginstall archlinux setelah beberapa kali pecobaan gagal ☺. Daripada nanti kalau saya mau install dan lupa harus browsing&amp;rdquo; dulu. Baik kalau gitu mari kita beraksi.
+Pertama update Sistem sudo pacman -Syu Install Nginx sudo pacman -S nginx Aktifkan nginx agar bisa start up saat booting.
+sudo systemctl start nginx sudo systemctl enable nginx Jika proses di atas sudah selesai tanpa kendala apapun maka seharusnya jika kita membuka localhost maka sudah terbuka seperti ini: Install PHP Install php dengan melakukan Perintah</description>
+    </item>
+    
+    <item>
+      <title>Cara Deploy Static Site Dengan Surge.sh</title>
+      <link>https://androcode.net/posts/cara-hosting-static-site-dengan-surge/</link>
+      <pubDate>Fri, 23 Oct 2020 08:52:48 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/cara-hosting-static-site-dengan-surge/</guid>
+      <description>&lt;p&gt;surge.sh sebuah layanan seperti hosting plus subdomain &lt;em&gt;.surge.sh&lt;/em&gt; gratis, dan hanya saja extensi file yang bisa diupload dibatasi hanya bisa file html, css, dan javascript.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar HTML : Form</title>
+      <link>https://androcode.net/posts/belajar-html-_-form/</link>
+      <pubDate>Tue, 20 Oct 2020 14:19:55 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-html-_-form/</guid>
+      <description>&lt;p&gt;Dalam sebuah website biasanya terdapat satu
+atau lebih form, seperti form pencarian, registrasi dan lain sebagainya.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar HTML : Memahami Tag Div</title>
+      <link>https://androcode.net/posts/belajar-html-_-memahami-tag-div/</link>
+      <pubDate>Mon, 19 Oct 2020 13:21:57 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-html-_-memahami-tag-div/</guid>
+      <description>&lt;p&gt;Anda dapat membuat suatu group dari tag-tag HTML yang anda buat dengan
+menggunakan tag &lt;em&gt;div&lt;/em&gt;, seperti pada contoh kasus berikut :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar HTML : Membuat Daftar Atau List</title>
+      <link>https://androcode.net/posts/belajar-html-_-membuat-daftar-atau-list/</link>
+      <pubDate>Sun, 18 Oct 2020 11:34:33 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-html-_-membuat-daftar-atau-list/</guid>
+      <description>&lt;p&gt;Sebuah daftar dapat memiliki penomoran atau hanya sebuah simbol berupa lingkaran
+atau bentuk lainnya.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar HTML : Heading</title>
+      <link>https://androcode.net/posts/belajar-html-_-heading/</link>
+      <pubDate>Sat, 17 Oct 2020 11:04:29 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-html-_-heading/</guid>
+      <description>&lt;p&gt;Heading, digunakan untuk memberikan penjudulan pada suatu dokumen HTML.
+Bayangkanlah sebuah skripsi atau buku yang memiliki bab dan subbab-subbab di
+dalamnya.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar : Sass</title>
+      <link>https://androcode.net/posts/belajar-_-sass/</link>
+      <pubDate>Fri, 16 Oct 2020 14:01:29 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-_-sass/</guid>
+      <description>&lt;p&gt;Kalai ini kita akan belajar sass,&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Flask : Templating Menggunakan Bootstrap</title>
+      <link>https://androcode.net/posts/belajar-flask-_-templating-menggunakan-bootstrap/</link>
+      <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-flask-_-templating-menggunakan-bootstrap/</guid>
+      <description>&lt;p&gt;Pada tulisan kali ini saya akan menjelaskan bagaimana pembuatan template dasar menggunakan Flask Framework dengan struktur folder dan file sebagai berikut.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Flask : Routing</title>
+      <link>https://androcode.net/posts/belajar-flask-_-routing/</link>
+      <pubDate>Wed, 14 Oct 2020 20:44:48 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-flask-_-routing/</guid>
+      <description>&lt;p&gt;Dalam dunia web development, trayek/jalan yang dimaksud adalah jalan menuju sebuah aplikasi berbasis web,&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Flask : Flask</title>
+      <link>https://androcode.net/posts/belajar-flask-_-flask/</link>
+      <pubDate>Tue, 13 Oct 2020 20:42:18 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-flask-_-flask/</guid>
+      <description>&lt;p&gt;Aplikasi yang menggunakan Flask antara lain adalah Pinterest, LinkedIn, dan halaman web komunitas situs Flask itu sendiri.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Function</title>
+      <link>https://androcode.net/posts/belajar-python-_-function/</link>
+      <pubDate>Thu, 17 Sep 2020 14:01:29 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-function/</guid>
+      <description>&lt;p&gt;Fungsi adalah organisasi yang baik, dapat digunakan kembali, digunakan untuk mencapai segmen kode tunggal, atau fungsi yang terkait.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : If Dan Else</title>
+      <link>https://androcode.net/posts/belajar-python-_-if-dan-else/</link>
+      <pubDate>Wed, 16 Sep 2020 13:59:35 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-if-dan-else/</guid>
+      <description>&lt;p&gt;Percabangan &lt;em&gt;ifelse&lt;/em&gt; di gunakan pada saat ada dua pilihan.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mysql : Buat Database Mysql di Terminal</title>
+      <link>https://androcode.net/posts/mysql-_-buat-database-di-mysql/</link>
+      <pubDate>Tue, 15 Sep 2020 13:56:56 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/mysql-_-buat-database-di-mysql/</guid>
+      <description>&lt;p&gt;Di postingan sebelumnya kita sudah mengetahui &lt;a href=&#34;https://androcode.netlify.app/post/mysql/&#34;&gt;apa itu mysql dan cara installnya&lt;/a&gt;, kali ini kita akan membuat database mysql di terminal,&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://androcode.net/posts/mysql/</link>
+      <pubDate>Sat, 12 Sep 2020 14:44:50 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/mysql/</guid>
+      <description>&lt;p&gt;MySQL adalah sebuah perangkat lunak sistem manajemen basis data SQL (bahasa Inggris: database management system) atau DBMS yang multialur, multipengguna, dengan sekitar 6 juta instalasi di seluruh dunia.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cara Install Sublime Text Di Fedora</title>
+      <link>https://androcode.net/posts/cara-install-sublime-text-di-fedora/</link>
+      <pubDate>Mon, 17 Aug 2020 13:20:54 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/cara-install-sublime-text-di-fedora/</guid>
+      <description>&lt;p&gt;Sublime Text adalah  kode editor sumber lintas platform, dan cukup ringan bagi laptop kentang seperti punya saya 😢.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Namauser Is Not in the Sudoers File</title>
+      <link>https://androcode.net/posts/namauser-is-not-in-the-sudoers-file.-this-incident-will-be-reported/</link>
+      <pubDate>Mon, 10 Aug 2020 06:47:01 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/namauser-is-not-in-the-sudoers-file.-this-incident-will-be-reported/</guid>
+      <description>&lt;p&gt;Masalah ini saya temukan, mungkin karena ada konflik dengan file konfigurasi pada folder /home saya (dari sistem operasi sebelumnya, Kubuntu 18.04) tapi ini insyaallah bisa di semua distro.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Laravel : Install Laravel Di Linux</title>
+      <link>https://androcode.net/posts/belajar-laravel-_-install-laravel-di-linux/</link>
+      <pubDate>Sun, 09 Aug 2020 11:44:31 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-laravel-_-install-laravel-di-linux/</guid>
+      <description>&lt;p&gt;Tutorial ini berfungsi untuk semua distro linux. Mau pakai Ubuntu, Linux Mint semua bisa. Asalkan sistem kamu memenuhi spesifikasi berikut:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Loop</title>
+      <link>https://androcode.net/posts/belajar-python-_-loop/</link>
+      <pubDate>Fri, 24 Jul 2020 09:46:39 +0000</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-loop/</guid>
+      <description>&lt;p&gt;Loop digunakan untuk mengulangi urutan (baik list, tupel, dictionary, set, atau string).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>C Sharp : Basic Syntax</title>
+      <link>https://androcode.net/posts/c-sharp-_-basic-syntax/</link>
+      <pubDate>Fri, 24 Jul 2020 09:18:40 +0000</pubDate>
+      
+      <guid>https://androcode.net/posts/c-sharp-_-basic-syntax/</guid>
+      <description>&lt;p&gt;C # adalah bahasa pemrograman berorientasi objek. Dalam metodologi Pemrograman Berorientasi Objek, suatu program terdiri dari berbagai objek yang saling berinteraksi melalui tindakan.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>C Sharp</title>
+      <link>https://androcode.net/posts/c-sharp/</link>
+      <pubDate>Fri, 10 Jul 2020 13:23:47 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/c-sharp/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt; merupakan bahasa pemrograman berorientasi objek yang di kembangkan oleh &lt;strong&gt;Microsoft&lt;/strong&gt; sebagai bagian dari inisiatif kerangka &lt;strong&gt;.Net Framework&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Begini Cara Mempercantik Tampilan Terminal Linux Anda</title>
+      <link>https://androcode.net/posts/memasang-zsh-dan-oh-my-zsh-di-linux/</link>
+      <pubDate>Wed, 24 Jun 2020 21:25:08 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/memasang-zsh-dan-oh-my-zsh-di-linux/</guid>
+      <description>&lt;p&gt;Z Shell atau lebih dikenal dengan nama zsh adalah sebuah interactive UNIX shell seperti halnya bash yang biasa kita pakai.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Tipe Data Python</title>
+      <link>https://androcode.net/posts/belajar-python-_-tipe-data-python/</link>
+      <pubDate>Sat, 13 Jun 2020 09:14:04 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-tipe-data-python/</guid>
+      <description>&lt;p&gt;Variable dapat menyimpan nilai dari tepe data yang berbeda.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Variables Python</title>
+      <link>https://androcode.net/posts/belajar-python-_-variables-python/</link>
+      <pubDate>Wed, 10 Jun 2020 10:48:47 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-variables-python/</guid>
+      <description>&lt;p&gt;Variable adalah nama yang di gunakan untuk merujuk lokasi memori.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Fitur Python</title>
+      <link>https://androcode.net/posts/belajar-python-_-fitur-python/</link>
+      <pubDate>Sat, 06 Jun 2020 10:17:44 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-fitur-python/</guid>
+      <description>&lt;p&gt;Python menyediakan banyak fitue yang tercantum di bawah ini :&lt;/p&gt;
+&lt;h3 id=&#34;1-mudah-dipelajari-dan-digunakan&#34;&gt;1. Mudah dipelajari dan digunakan&lt;/h3&gt;
+&lt;p&gt;Python mudah dipahami dan dipelajari dan digunakan. Ini alasan bahsasa pemrograman tingkat tinggi yang ramah bagi pengembang.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Pengenalan Python</title>
+      <link>https://androcode.net/posts/belajar-python-_-pengenalan-python/</link>
+      <pubDate>Sat, 06 Jun 2020 08:50:27 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-pengenalan-python/</guid>
+      <description>&lt;h1 id=&#34;apa-itu-python-&#34;&gt;Apa itu Python ?&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt; merupakan bahasa pemrograman umum, dinamis, tingkat tinggi yang di racik oleh &lt;strong&gt;Guido van Rossum&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar HTML: Mengenal Tag, Element, Atribut Html</title>
+      <link>https://androcode.net/posts/belajar-html_-mengenal-tag-element-atribut-html/</link>
+      <pubDate>Fri, 29 May 2020 12:46:10 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-html_-mengenal-tag-element-atribut-html/</guid>
+      <description>&lt;p&gt;Swtelah sebelumnya kita membahas pengenalan Html, text editor, kini kita akan memasuki&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar HTML: Pengertian Html</title>
+      <link>https://androcode.net/posts/belajar-html_-pengertian-html/</link>
+      <pubDate>Fri, 29 May 2020 10:50:38 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-html_-pengertian-html/</guid>
+      <description>&lt;p&gt;HTML mereupakan unsur dasar dari pembangunan website. karna bentuk dari halaman website di buat menggunakan HTML.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://androcode.net/about/</link>
+      <pubDate>Sat, 29 May 2010 15:06:31 +0700</pubDate>
+      
+      <guid>https://androcode.net/about/</guid>
+      <description>Hallo&amp;hellip; ini About, mungkin blog ini belum baik atau ada beberapa link atau tautan yang belum dapat di akses saya sadar akan hal itu, maka dari itu saya memberanikan mebuat blog ini. Dan kedepannya Mungkin ada perbaikan secara berkala 🙂
+Kepnapa ? kenapa saya mebuat blog ini ? Bisa di bilang saya membuat blog ini untuk menulis hasil belajar saya atau kata orang itu mengikat ilmu, ya emang betul, jadi mungkit tulisannya masih belum rapi karena ini berdasarkan pemahaman saya 🙂</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://androcode.net/contact/</link>
+      <pubDate>Sat, 29 May 2010 15:06:31 +0700</pubDate>
+      
+      <guid>https://androcode.net/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://androcode.net/search/</link>
+      <pubDate>Sat, 29 May 2010 15:06:31 +0700</pubDate>
+      
+      <guid>https://androcode.net/search/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://androcode.net/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://androcode.net/tags/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

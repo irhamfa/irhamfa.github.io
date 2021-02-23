@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Install Nginx, PHP Dan Mysql Di Archlinux</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta itemprop="name" content="Install Nginx, PHP Dan Mysql Di Archlinux">
+<meta itemprop="description" content="Jadi saya membuat tutorial ini setelah saya ahirnya berhasil menginstall archlinux setelah beberapa kali pecobaan gagal ☺. Daripada nanti kalau saya mau install dan lupa harus browsing&rdquo; dulu. Baik kalau gitu mari kita beraksi.
+Pertama update Sistem sudo pacman -Syu Install Nginx sudo pacman -S nginx Aktifkan nginx agar bisa start up saat booting.
+sudo systemctl start nginx sudo systemctl enable nginx Jika proses di atas sudah selesai tanpa kendala apapun maka seharusnya jika kita membuka localhost maka sudah terbuka seperti ini: Install PHP Install php dengan melakukan Perintah">
+<meta itemprop="datePublished" content="2021-01-20T09:21:39+07:00" />
+<meta itemprop="dateModified" content="2021-01-20T09:21:39+07:00" />
+<meta itemprop="wordCount" content="298">
+
+
+
+<meta itemprop="keywords" content="archlinux,mysql,php,nginx," />
+
+
+<meta property="og:title" content="Install Nginx, PHP Dan Mysql Di Archlinux" />
+<meta property="og:description" content="Jadi saya membuat tutorial ini setelah saya ahirnya berhasil menginstall archlinux setelah beberapa kali pecobaan gagal ☺. Daripada nanti kalau saya mau install dan lupa harus browsing&rdquo; dulu. Baik kalau gitu mari kita beraksi.
+Pertama update Sistem sudo pacman -Syu Install Nginx sudo pacman -S nginx Aktifkan nginx agar bisa start up saat booting.
+sudo systemctl start nginx sudo systemctl enable nginx Jika proses di atas sudah selesai tanpa kendala apapun maka seharusnya jika kita membuka localhost maka sudah terbuka seperti ini: Install PHP Install php dengan melakukan Perintah" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://androcode.net/posts/install-nginx/" />
+<meta property="article:published_time" content="2021-01-20T09:21:39+07:00" />
+<meta property="article:modified_time" content="2021-01-20T09:21:39+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Install Nginx, PHP Dan Mysql Di Archlinux"/>
+<meta name="twitter:description" content="Jadi saya membuat tutorial ini setelah saya ahirnya berhasil menginstall archlinux setelah beberapa kali pecobaan gagal ☺. Daripada nanti kalau saya mau install dan lupa harus browsing&rdquo; dulu. Baik kalau gitu mari kita beraksi.
+Pertama update Sistem sudo pacman -Syu Install Nginx sudo pacman -S nginx Aktifkan nginx agar bisa start up saat booting.
+sudo systemctl start nginx sudo systemctl enable nginx Jika proses di atas sudah selesai tanpa kendala apapun maka seharusnya jika kita membuka localhost maka sudah terbuka seperti ini: Install PHP Install php dengan melakukan Perintah"/>
+
+
+  <meta name="keywords"
+        content="Tips, archlinux, mysql, php, nginx">
+
+  <meta property="og:locale"
+        content="en">
+  <meta property="og:title"
+        content="Install Nginx, PHP Dan Mysql Di Archlinux">
+  <meta property="og:url"
+       content="https://androcode.net/posts/install-nginx/">
+  <meta property="og:site_name"
+       content="Androcode">
+
+  <meta property="og:latitude"     content="-6.193665"/>
+  <meta property="og:longitude"    content="106.848558"/>
+  <meta property="og:locality"     content="Jakarta"/>
+  <meta property="og:country-name" content="Indonesia"/>
+
+
+  <meta name="twitter:title"
+        content="Install Nginx, PHP Dan Mysql Di Archlinux">
+
+
+
+
+<link rel="icon" href="/img/Androcode.svg" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/dark.css" />
+<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+<script data-ad-client="ca-pub-3292042350270691" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-168737261-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head>
+<style>
+body {
+    font-family: 'Amita';font-size: 16px;
+}
+</style>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+    <div class="container">
+
+        <a class="navbar-brand" href="https://androcode.net"><img src="/img/Androcode.svg" width="30" height="30" class="d-inline-block align-top rounded-circle"
+            alt=""> Androcode</a>
+        <button class="navbar-toggler d-sm-none d-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-sm-none d-none" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://androcode.net">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/search">Search</a>
+                </li>
+                
+            </ul>
+            &ensp;&ensp;&ensp;
+           
+        </div>
+        
+
+    </div>
+</nav>
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
+    <ul class="navbar-nav nav-justified w-100">
+      <li class="nav-item">
+        <a class="nav-link" href="https://androcode.net">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg>
+        </a>
+        <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="/search" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-plus-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/contact" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/about" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+    <br><br>
+    <div class="container mb-5">
+        <div class="row">
+
+            <div class="col-sm-12 col-lg-8 mb-5 card">
+                <article>
+                    <div class="">
+                        <div class="card-body p-md-5">
+
+                            <div class="post-header mb-5">
+
+                                <div class="mb-3">
+                                    <img src="/img/face.svg" class="rounded-circle" width="32" height="32" />
+                                    <a href="https://github.com/irhamfa" style="color: black;">Irham</a> . Update terahir <time>20-Jan-2021</time>
+                                </div>
+
+                                <h2 class="card-title mb-3">Install Nginx, PHP Dan Mysql Di Archlinux</h2>
+
+                                <div>
+                                    
+                                    <span class="badge badge-success">
+                                             #<a class="text-white" href="/tags/archlinux">archlinux</a>
+                                        </span> 
+                                    <span class="badge badge-success">
+                                             #<a class="text-white" href="/tags/mysql">mysql</a>
+                                        </span> 
+                                    <span class="badge badge-success">
+                                             #<a class="text-white" href="/tags/php">php</a>
+                                        </span> 
+                                    <span class="badge badge-success">
+                                             #<a class="text-white" href="/tags/nginx">nginx</a>
+                                        </span> 
+                                </div>
+
+                            </div>
+                            <div class="post-content">
+                                <p>Jadi saya membuat tutorial ini setelah saya ahirnya berhasil menginstall archlinux
+setelah beberapa kali pecobaan gagal ☺.
+Daripada nanti kalau saya mau install dan lupa harus browsing&rdquo; dulu.
+Baik kalau gitu mari kita beraksi.</p>
+<h3 id="pertama-update-sistem">Pertama update Sistem</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -Syu
+</code></pre></div><h3 id="install-nginx">Install Nginx</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S nginx
+</code></pre></div><p>Aktifkan nginx agar bisa start up saat booting.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo systemctl start nginx
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo systemctl enable nginx
+</code></pre></div><p>Jika proses di atas sudah selesai tanpa kendala apapun maka seharusnya jika kita
+membuka <em>localhost</em> maka sudah terbuka seperti ini:
+<img src="nginx.png" alt="nginx"></p>
+<h3 id="install-php">Install PHP</h3>
+<p>Install php dengan melakukan Perintah</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S php php-fpm
+</code></pre></div><p>Setelah menginstall php selesai kini tinggal mengatur web server kita agar dapat memanggil php-fpm.
+Untuk mengedit confignya bisa jalankan perintah berikut:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo nano /etc/nginx/nginx.conf
+</code></pre></div><p>Dan tambahkan <strong>index.php</strong> pada location</p>
+<pre><code class="language-conf" data-lang="conf">location / {
+			root /usr/share/nginx/html;
+			index index.html index.htm index.php
+}
+</code></pre><p>jadi seperti berikut :
+<img src="location.png" alt="nginx loc"></p>
+<p>Dan temukan tulisan berikut :</p>
+<pre><code class="language-conf" data-lang="conf">#location ~ \.php$ {
+#    root           html;
+#    fastcgi_pass   127.0.0.1:9000;
+#    fastcgi_index  index.php;
+#    fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;
+#    include        fastcgi_params;
+#}
+</code></pre><p>konfigurasikan dengan menghapus tanda pagar atau commentnya dan bisa di ganti atau di tambah seperti berikut :
+<img src="nginxconf.png" alt="nginx conf"></p>
+<p>setelah selesai bisa save dengan <em>ctrl + x kemudia y terus enter</em> untuk yg mengeditnya menggunakan nano.
+Kemudian restart nginx nya dan jalankan service php-fpm</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo systemctl start php-fpm
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo systemctl enable php-fpm
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo systemctl restart nginx
+</code></pre></div><h3 id="testing-php">Testing PHP</h3>
+<p>Untuk tes web server kita sudah berjalan atau belum bisa cek dengan buat file di <em>/usr/share/nginx/html/infophp.php</em></p>
+<p>agar bisa buat file di file manager dan juga copy paste maka harus melalukan permision di folder <em>html</em> dengan cara</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo chmod <span style="color:#ae81ff">777</span> -R /usr/share/nginx/html/
+</code></pre></div><p>buat file dengan nama <em>infophp.php</em> dan berikut isinya:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e">&lt;?php</span>
+<span style="color:#a6e22e">phpinfo</span>();
+<span style="color:#75715e">?&gt;</span>
+</code></pre></div><p>kemudian jalankan dengan memanggil alamat <em>localhost/infophp.php</em>
+jika tampil seperti ini berarti kita sudah Berhasil
+<img src="phpinfo.png" alt="phpinfo"></p>
+<h3 id="untuk-install-mysql">Untuk install Mysql</h3>
+<p>untuk install mysql saya sudah pernah membuat tulisanya <a href="https://androcode.netlify.app/posts/mysql/">Di sini</a></p>
+ 
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="5580717283"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="5580717283"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+ <aside>
+<div class="card hidden-sm hidden-xs mb-3 shadow-hover">
+  <div class="card-header bg-stripe-zero text-dark pb-0">
+    <span class="fa fa-newspaper float-right"></span>
+    <p class="card-title">Recent Posts</p>
+    <div class="clearfix"></div>
+  </div>
+  <div class="card-body py-2">
+    <ul class="card_list">
+      
+      <li><a href="https://androcode.net/posts/belajar-tailwindcss/">Belajar-Tailwindcss</a></li>
+      
+      <li><a href="https://androcode.net/posts/service-di-artixopenrc/">Manajemen Service Di Artix OpenRC</a></li>
+      
+      <li><a href="https://androcode.net/posts/install-phpmyadmin/">Install Phpmyadmin Di Linux</a></li>
+      
+      <li><a href="https://androcode.net/posts/install-nginx/">Install Nginx, PHP Dan Mysql Di Archlinux</a></li>
+      
+      <li><a href="https://androcode.net/posts/cara-hosting-static-site-dengan-surge/">Cara Deploy Static Site Dengan Surge.sh</a></li>
+      
+    </ul>
+  </div>
+</div>
+</aside>
+                
+                
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="8132225981"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+
+            </div>
+
+
+            <div class="card col-sm-12 col-lg-8 mb-5">
+                <div class="card-body">
+                    <div class="post-footer">
+                        <div id="disqus_thread"></div>
+<script>
+    
+
+    
+
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-androcode-netlify-app.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/prism.js"></script>
+<script type="text/javascript" src="/js/theme.js"></script>
+<script type="text/javascript" src="/js/dark.js"></script>
+<script id="dsq-count-scr" src="//https-androcode-netlify-app.disqus.com/count.js" async></script>
+</body>
+
+</html>

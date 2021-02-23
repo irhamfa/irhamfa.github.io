@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Androcode</title>
+    <link>https://androcode.net/categories/python/</link>
+    <description>Recent content in Python on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 15 Oct 2020 20:47:41 +0700</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Belajar Flask : Templating Menggunakan Bootstrap</title>
+      <link>https://androcode.net/posts/belajar-flask-_-templating-menggunakan-bootstrap/</link>
+      <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-flask-_-templating-menggunakan-bootstrap/</guid>
+      <description>&lt;p&gt;Pada tulisan kali ini saya akan menjelaskan bagaimana pembuatan template dasar menggunakan Flask Framework dengan struktur folder dan file sebagai berikut.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Flask : Routing</title>
+      <link>https://androcode.net/posts/belajar-flask-_-routing/</link>
+      <pubDate>Wed, 14 Oct 2020 20:44:48 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-flask-_-routing/</guid>
+      <description>&lt;p&gt;Dalam dunia web development, trayek/jalan yang dimaksud adalah jalan menuju sebuah aplikasi berbasis web,&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Flask : Flask</title>
+      <link>https://androcode.net/posts/belajar-flask-_-flask/</link>
+      <pubDate>Tue, 13 Oct 2020 20:42:18 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-flask-_-flask/</guid>
+      <description>&lt;p&gt;Aplikasi yang menggunakan Flask antara lain adalah Pinterest, LinkedIn, dan halaman web komunitas situs Flask itu sendiri.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Function</title>
+      <link>https://androcode.net/posts/belajar-python-_-function/</link>
+      <pubDate>Thu, 17 Sep 2020 14:01:29 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-function/</guid>
+      <description>&lt;p&gt;Fungsi adalah organisasi yang baik, dapat digunakan kembali, digunakan untuk mencapai segmen kode tunggal, atau fungsi yang terkait.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : If Dan Else</title>
+      <link>https://androcode.net/posts/belajar-python-_-if-dan-else/</link>
+      <pubDate>Wed, 16 Sep 2020 13:59:35 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-if-dan-else/</guid>
+      <description>&lt;p&gt;Percabangan &lt;em&gt;ifelse&lt;/em&gt; di gunakan pada saat ada dua pilihan.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Loop</title>
+      <link>https://androcode.net/posts/belajar-python-_-loop/</link>
+      <pubDate>Fri, 24 Jul 2020 09:46:39 +0000</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-loop/</guid>
+      <description>&lt;p&gt;Loop digunakan untuk mengulangi urutan (baik list, tupel, dictionary, set, atau string).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Tipe Data Python</title>
+      <link>https://androcode.net/posts/belajar-python-_-tipe-data-python/</link>
+      <pubDate>Sat, 13 Jun 2020 09:14:04 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-tipe-data-python/</guid>
+      <description>&lt;p&gt;Variable dapat menyimpan nilai dari tepe data yang berbeda.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Variables Python</title>
+      <link>https://androcode.net/posts/belajar-python-_-variables-python/</link>
+      <pubDate>Wed, 10 Jun 2020 10:48:47 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-variables-python/</guid>
+      <description>&lt;p&gt;Variable adalah nama yang di gunakan untuk merujuk lokasi memori.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Fitur Python</title>
+      <link>https://androcode.net/posts/belajar-python-_-fitur-python/</link>
+      <pubDate>Sat, 06 Jun 2020 10:17:44 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-fitur-python/</guid>
+      <description>&lt;p&gt;Python menyediakan banyak fitue yang tercantum di bawah ini :&lt;/p&gt;
+&lt;h3 id=&#34;1-mudah-dipelajari-dan-digunakan&#34;&gt;1. Mudah dipelajari dan digunakan&lt;/h3&gt;
+&lt;p&gt;Python mudah dipahami dan dipelajari dan digunakan. Ini alasan bahsasa pemrograman tingkat tinggi yang ramah bagi pengembang.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Python : Pengenalan Python</title>
+      <link>https://androcode.net/posts/belajar-python-_-pengenalan-python/</link>
+      <pubDate>Sat, 06 Jun 2020 08:50:27 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-python-_-pengenalan-python/</guid>
+      <description>&lt;h1 id=&#34;apa-itu-python-&#34;&gt;Apa itu Python ?&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt; merupakan bahasa pemrograman umum, dinamis, tingkat tinggi yang di racik oleh &lt;strong&gt;Guido van Rossum&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

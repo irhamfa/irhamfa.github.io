@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php on Androcode</title>
+    <link>https://androcode.net/tags/php/</link>
+    <description>Recent content in php on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Jan 2021 09:21:39 +0700</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Nginx, PHP Dan Mysql Di Archlinux</title>
+      <link>https://androcode.net/posts/install-nginx/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/install-nginx/</guid>
+      <description>Jadi saya membuat tutorial ini setelah saya ahirnya berhasil menginstall archlinux setelah beberapa kali pecobaan gagal ☺. Daripada nanti kalau saya mau install dan lupa harus browsing&amp;rdquo; dulu. Baik kalau gitu mari kita beraksi.
+Pertama update Sistem sudo pacman -Syu Install Nginx sudo pacman -S nginx Aktifkan nginx agar bisa start up saat booting.
+sudo systemctl start nginx sudo systemctl enable nginx Jika proses di atas sudah selesai tanpa kendala apapun maka seharusnya jika kita membuka localhost maka sudah terbuka seperti ini: Install PHP Install php dengan melakukan Perintah</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flask on Androcode</title>
+    <link>https://androcode.net/categories/flask/</link>
+    <description>Recent content in Flask on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 15 Oct 2020 20:47:41 +0700</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/categories/flask/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Belajar Flask : Templating Menggunakan Bootstrap</title>
+      <link>https://androcode.net/posts/belajar-flask-_-templating-menggunakan-bootstrap/</link>
+      <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-flask-_-templating-menggunakan-bootstrap/</guid>
+      <description>&lt;p&gt;Pada tulisan kali ini saya akan menjelaskan bagaimana pembuatan template dasar menggunakan Flask Framework dengan struktur folder dan file sebagai berikut.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Flask : Routing</title>
+      <link>https://androcode.net/posts/belajar-flask-_-routing/</link>
+      <pubDate>Wed, 14 Oct 2020 20:44:48 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-flask-_-routing/</guid>
+      <description>&lt;p&gt;Dalam dunia web development, trayek/jalan yang dimaksud adalah jalan menuju sebuah aplikasi berbasis web,&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Belajar Flask : Flask</title>
+      <link>https://androcode.net/posts/belajar-flask-_-flask/</link>
+      <pubDate>Tue, 13 Oct 2020 20:42:18 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-flask-_-flask/</guid>
+      <description>&lt;p&gt;Aplikasi yang menggunakan Flask antara lain adalah Pinterest, LinkedIn, dan halaman web komunitas situs Flask itu sendiri.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

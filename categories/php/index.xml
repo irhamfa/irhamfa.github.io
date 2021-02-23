@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on Androcode</title>
+    <link>https://androcode.net/categories/php/</link>
+    <description>Recent content in PHP on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 09 Aug 2020 11:44:31 +0700</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/categories/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Belajar Laravel : Install Laravel Di Linux</title>
+      <link>https://androcode.net/posts/belajar-laravel-_-install-laravel-di-linux/</link>
+      <pubDate>Sun, 09 Aug 2020 11:44:31 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-laravel-_-install-laravel-di-linux/</guid>
+      <description>&lt;p&gt;Tutorial ini berfungsi untuk semua distro linux. Mau pakai Ubuntu, Linux Mint semua bisa. Asalkan sistem kamu memenuhi spesifikasi berikut:&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

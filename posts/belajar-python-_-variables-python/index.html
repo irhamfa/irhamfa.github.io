@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Belajar Python : Variables Python</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta itemprop="name" content="Belajar Python : Variables Python">
+<meta itemprop="description" content="Variable adalah nama yang di gunakan untuk merujuk lokasi memori.">
+<meta itemprop="datePublished" content="2020-06-10T10:48:47+07:00" />
+<meta itemprop="dateModified" content="2020-06-10T10:48:47+07:00" />
+<meta itemprop="wordCount" content="462">
+
+
+
+<meta itemprop="keywords" content="python," />
+
+
+<meta property="og:title" content="Belajar Python : Variables Python" />
+<meta property="og:description" content="Variable adalah nama yang di gunakan untuk merujuk lokasi memori." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://androcode.net/posts/belajar-python-_-variables-python/" />
+<meta property="article:published_time" content="2020-06-10T10:48:47+07:00" />
+<meta property="article:modified_time" content="2020-06-10T10:48:47+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Belajar Python : Variables Python"/>
+<meta name="twitter:description" content="Variable adalah nama yang di gunakan untuk merujuk lokasi memori."/>
+
+
+  <meta name="keywords"
+        content="Python, python, python dasar">
+
+  <meta property="og:locale"
+        content="en">
+  <meta property="og:title"
+        content="Belajar Python : Variables Python">
+  <meta property="og:url"
+       content="https://androcode.net/posts/belajar-python-_-variables-python/">
+  <meta property="og:site_name"
+       content="Androcode">
+
+  <meta property="og:latitude"     content="-6.193665"/>
+  <meta property="og:longitude"    content="106.848558"/>
+  <meta property="og:locality"     content="Jakarta"/>
+  <meta property="og:country-name" content="Indonesia"/>
+
+
+  <meta name="twitter:title"
+        content="Belajar Python : Variables Python">
+
+
+
+
+<link rel="icon" href="/img/Androcode.svg" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/dark.css" />
+<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+<script data-ad-client="ca-pub-3292042350270691" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-168737261-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head>
+<style>
+body {
+    font-family: 'Amita';font-size: 16px;
+}
+</style>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+    <div class="container">
+
+        <a class="navbar-brand" href="https://androcode.net"><img src="/img/Androcode.svg" width="30" height="30" class="d-inline-block align-top rounded-circle"
+            alt=""> Androcode</a>
+        <button class="navbar-toggler d-sm-none d-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-sm-none d-none" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://androcode.net">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/search">Search</a>
+                </li>
+                
+            </ul>
+            &ensp;&ensp;&ensp;
+           
+        </div>
+        
+
+    </div>
+</nav>
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
+    <ul class="navbar-nav nav-justified w-100">
+      <li class="nav-item">
+        <a class="nav-link" href="https://androcode.net">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg>
+        </a>
+        <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="/search" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-plus-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/contact" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/about" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+    <br><br>
+    <div class="container mb-5">
+        <div class="row">
+
+            <div class="col-sm-12 col-lg-8 mb-5 card">
+                <article>
+                    <div class="">
+                        <div class="card-body p-md-5">
+
+                            <div class="post-header mb-5">
+
+                                <div class="mb-3">
+                                    <img src="/img/face.svg" class="rounded-circle" width="32" height="32" />
+                                    <a href="https://github.com/irhamfa" style="color: black;">Irham</a> . Update terahir <time>10-Jun-2020</time>
+                                </div>
+
+                                <h2 class="card-title mb-3">Belajar Python : Variables Python</h2>
+
+                                <div>
+                                    
+                                    <span class="badge badge-success">
+                                             #<a class="text-white" href="/tags/python">python</a>
+                                        </span> 
+                                </div>
+
+                            </div>
+                            <div class="post-content">
+                                <p>Variable adalah nama yang di gunakan untuk merujuk lokasi memori.</p>
+<p>Variable juga di kenal sebagai pengidentifikasi dan digunakan untuk menyimpan nilai
+Dalam python kita tidak perlu menentukan jenis variable karena python adalah jenis bahasa yang disimpulkan dan cukup pintar untuk mendapatkan jenis variable.
+Nama variable dapat berupa kelompok huruf dan angk, tetapi harus di awali dengan huruf atau garis bawah/underscore.
+Dianjurkan untuk menggunakan huruf keciluntuk nama variable.
+Satu dan satu adalah dua variable yang berbeda.</p>
+<h4 id="penamaan-identifier">Penamaan Identifier</h4>
+<p>Variable adalah contoh pengidentifikasi Identifier digunakan untuk mengidentifikasi literal yang di gunakan dalam progrogram
+Aturan untuk memberi nama seperti di hawah.</p>
+<ul>
+<li>Karakter pertama harus berupa huruf atau underscore.</li>
+<li>Semua karakter kecuali karakter pertama mungkin merupakan huruf kecil (a-z), huruf besar (A-Z) atau underscore dan digit (0_9).</li>
+<li>Nama pengidentifikasi tidak boleh  mengandung spasi atau karaker khusus (!, @, #,%, ^, &amp;, * ).</li>
+<li>Nama pengidentifikasi tiak boleh mirip dengan kata kunci apapun yang di tentukan dalam bahasa.</li>
+<li>Nama pengenal terhadap huruf besar kecil, misal myname dan Myname tidak sama.</li>
+<li>Contoh pengidentifikasi yang valid (a123,_ n,n_9).</li>
+<li>Contoh pengidentifikasi yang tidak valid (1a,n%4,n 9).</li>
+</ul>
+<h4 id="mendeklarasikan-variable-dan-menetapkan-nilai">Mendeklarasikan variable dan menetapkan nilai</h4>
+<p>Python tidak mengikat kita untuk Mendeklarasikan variale sebelum di gunakan dalam aplikasi, ini memungkinkan kita membuat variable pada waktu yang di perlukan.
+Kita tidak perlu Mendeklarasikan variable eksplisit dalam python. ketika kami memberikan nilai apapun ke variable itu variable tersebut dinyatakan secara otomatis.
+Operator (=) digunakan untuk menetapkan nilai ke Variable.</p>
+<h6 id="misalnya">Misalnya</h6>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">a <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>  <span style="color:#75715e">#a = variable, 10 = values atau nilai</span>
+name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;andro&#34;</span> <span style="color:#75715e">#name = variable, andro = values atau nilai</span>
+<span style="color:#66d9ef">print</span> (a)
+<span style="color:#66d9ef">print</span> (name)</code></pre></div>
+<h6 id="output">output</h6>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#ae81ff">10</span>
+andro</code></pre></div>
+<h4 id="penugasan-berganda">Penugasan berganda</h4>
+<p>Python memungkinkan kita menetapkan nilai ke dalam beberapa variable dalam satu pernyataan yang juga di kenal sebagai banyak tugas.
+Kita bisa menetapkan beberapa penugasan dengan dua cara baik dengan menerapkan nilai tunggal ke beberapa variable atau menetapkan beberapa nilai ke beberapa variable.</p>
+<h4 id="1-menerapkan-nilai-tunggal-ke-beberapa-variable-">1. Menerapkan nilai tunggal ke beberapa variable :</h4>
+<h6 id="misalnya-1">Misalnya</h6>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  
+a<span style="color:#f92672">=</span>b<span style="color:#f92672">=</span>c<span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+<span style="color:#66d9ef">print</span> (a)
+<span style="color:#66d9ef">print</span> (b)
+<span style="color:#66d9ef">print</span> (c)</code></pre></div>
+<h6 id="output-1">output</h6>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#ae81ff">10</span>
+<span style="color:#ae81ff">10</span>
+<span style="color:#ae81ff">10</span></code></pre></div>
+<h4 id="2-menugaskan-beberapa-nilai-ke-beberapa-variable-">2. Menugaskan beberapa nilai ke beberapa variable :</h4>
+<h6 id="misalnya-2">Misalnya</h6>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">a,b,c<span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>,<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">30</span>
+<span style="color:#66d9ef">print</span> (a)
+<span style="color:#66d9ef">print</span> (b)
+<span style="color:#66d9ef">print</span> (c)</code></pre></div>
+<h6 id="output-2">output</h6>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#ae81ff">10</span>
+<span style="color:#ae81ff">20</span>
+<span style="color:#ae81ff">30</span></code></pre></div>
+<p>Nilai-nilai akan di berikan dalam urutan di mana variable muncul.</p>
+<h4 id="fundamental-dasar">Fundamental Dasar</h4>
+<p>Berikut ini berisi dasar-dasar python :
+Bagian ini berisi dasar-dasar dasar Python seperti:</p>
+<p>i) Token dan tipenya.</p>
+<p>ii) Komentar</p>
+<p>a) Token:</p>
+<p>Token dapat didefinisikan sebagai tanda punctuator, kata-kata yang dicadangkan, dan setiap kata individual dalam sebuah pernyataan.
+Token adalah unit terkecil di dalam program yang diberikan.
+Ada token berikut dalam Python:</p>
+<h4 id="kata-kunci">Kata kunci.</h4>
+<ul>
+<li>Pengidentifikasi.</li>
+<li>Literal.</li>
+<li>Operator.</li>
+</ul>
+<h4 id="tuples">Tuples:</h4>
+<ul>
+<li>Tuple adalah bentuk pengumpulan di mana berbagai jenis data dapat - disimpan.</li>
+<li>Ini mirip dengan daftar tempat data dipisahkan oleh koma. Hanya bedanya adalah bahwa daftar menggunakan braket persegi dan tupel menggunakan tanda kurung.</li>
+<li>Tuple terlampir dalam tanda kurung dan tidak dapat diubah.</li>
+</ul> 
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="5580717283"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="5580717283"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+ <aside>
+<div class="card hidden-sm hidden-xs mb-3 shadow-hover">
+  <div class="card-header bg-stripe-zero text-dark pb-0">
+    <span class="fa fa-newspaper float-right"></span>
+    <p class="card-title">Recent Posts</p>
+    <div class="clearfix"></div>
+  </div>
+  <div class="card-body py-2">
+    <ul class="card_list">
+      
+      <li><a href="https://androcode.net/posts/belajar-tailwindcss/">Belajar-Tailwindcss</a></li>
+      
+      <li><a href="https://androcode.net/posts/service-di-artixopenrc/">Manajemen Service Di Artix OpenRC</a></li>
+      
+      <li><a href="https://androcode.net/posts/install-phpmyadmin/">Install Phpmyadmin Di Linux</a></li>
+      
+      <li><a href="https://androcode.net/posts/install-nginx/">Install Nginx, PHP Dan Mysql Di Archlinux</a></li>
+      
+      <li><a href="https://androcode.net/posts/cara-hosting-static-site-dengan-surge/">Cara Deploy Static Site Dengan Surge.sh</a></li>
+      
+    </ul>
+  </div>
+</div>
+</aside>
+                
+                
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="8132225981"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+
+            </div>
+
+
+            <div class="card col-sm-12 col-lg-8 mb-5">
+                <div class="card-body">
+                    <div class="post-footer">
+                        <div id="disqus_thread"></div>
+<script>
+    
+
+    
+
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-androcode-netlify-app.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/prism.js"></script>
+<script type="text/javascript" src="/js/theme.js"></script>
+<script type="text/javascript" src="/js/dark.js"></script>
+<script id="dsq-count-scr" src="//https-androcode-netlify-app.disqus.com/count.js" async></script>
+</body>
+
+</html>

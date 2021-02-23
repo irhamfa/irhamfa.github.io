@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hosting on Androcode</title>
+    <link>https://androcode.net/tags/hosting/</link>
+    <description>Recent content in hosting on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 23 Oct 2020 08:52:48 +0700</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/tags/hosting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cara Deploy Static Site Dengan Surge.sh</title>
+      <link>https://androcode.net/posts/cara-hosting-static-site-dengan-surge/</link>
+      <pubDate>Fri, 23 Oct 2020 08:52:48 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/cara-hosting-static-site-dengan-surge/</guid>
+      <description>&lt;p&gt;surge.sh sebuah layanan seperti hosting plus subdomain &lt;em&gt;.surge.sh&lt;/em&gt; gratis, dan hanya saja extensi file yang bisa diupload dibatasi hanya bisa file html, css, dan javascript.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

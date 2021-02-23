@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>C Sharp</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta itemprop="name" content="C Sharp">
+<meta itemprop="description" content="Androcode.my.id adalah blog dokumentasi belajar agar tidak lupa dengan apa yang sudah dipelajari );">
+<meta itemprop="datePublished" content="2020-07-10T13:23:47+07:00" />
+<meta itemprop="dateModified" content="2020-07-10T13:23:47+07:00" />
+<meta itemprop="wordCount" content="355">
+
+
+
+<meta itemprop="keywords" content="" />
+
+
+<meta property="og:title" content="C Sharp" />
+<meta property="og:description" content="Androcode.my.id adalah blog dokumentasi belajar agar tidak lupa dengan apa yang sudah dipelajari );" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://androcode.net/posts/c-sharp/" />
+<meta property="article:published_time" content="2020-07-10T13:23:47+07:00" />
+<meta property="article:modified_time" content="2020-07-10T13:23:47+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="C Sharp"/>
+<meta name="twitter:description" content="Androcode.my.id adalah blog dokumentasi belajar agar tidak lupa dengan apa yang sudah dipelajari );"/>
+
+
+  <meta name="keywords"
+        content="C Sharp">
+
+  <meta property="og:locale"
+        content="en">
+  <meta property="og:title"
+        content="C Sharp">
+  <meta property="og:url"
+       content="https://androcode.net/posts/c-sharp/">
+  <meta property="og:site_name"
+       content="Androcode">
+
+  <meta property="og:latitude"     content="-6.193665"/>
+  <meta property="og:longitude"    content="106.848558"/>
+  <meta property="og:locality"     content="Jakarta"/>
+  <meta property="og:country-name" content="Indonesia"/>
+
+
+  <meta name="twitter:title"
+        content="C Sharp">
+
+
+
+
+<link rel="icon" href="/img/Androcode.svg" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/dark.css" />
+<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+<script data-ad-client="ca-pub-3292042350270691" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-168737261-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head>
+<style>
+body {
+    font-family: 'Amita';font-size: 16px;
+}
+</style>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+    <div class="container">
+
+        <a class="navbar-brand" href="https://androcode.net"><img src="/img/Androcode.svg" width="30" height="30" class="d-inline-block align-top rounded-circle"
+            alt=""> Androcode</a>
+        <button class="navbar-toggler d-sm-none d-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-sm-none d-none" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://androcode.net">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/search">Search</a>
+                </li>
+                
+            </ul>
+            &ensp;&ensp;&ensp;
+           
+        </div>
+        
+
+    </div>
+</nav>
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
+    <ul class="navbar-nav nav-justified w-100">
+      <li class="nav-item">
+        <a class="nav-link" href="https://androcode.net">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg>
+        </a>
+        <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="/search" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-plus-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/contact" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/about" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+    <br><br>
+    <div class="container mb-5">
+        <div class="row">
+
+            <div class="col-sm-12 col-lg-8 mb-5 card">
+                <article>
+                    <div class="">
+                        <div class="card-body p-md-5">
+
+                            <div class="post-header mb-5">
+
+                                <div class="mb-3">
+                                    <img src="/img/face.svg" class="rounded-circle" width="32" height="32" />
+                                    <a href="https://github.com/irhamfa" style="color: black;">Irham</a> . Update terahir <time>10-Jul-2020</time>
+                                </div>
+
+                                <h2 class="card-title mb-3">C Sharp</h2>
+
+                                <div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="post-content">
+                                <p><strong>C#</strong> merupakan bahasa pemrograman berorientasi objek yang di kembangkan oleh <strong>Microsoft</strong> sebagai bagian dari inisiatif kerangka <strong>.Net Framework</strong>.</p>
+<p>Bahasa pemrograman ini di buat berbasiskan bahasa C++ yang telah di pengaruhi oleh aspek-aspek ataupun fitur bahasa yang terdapat pada bahasa-bahasa pemrograman lainya seperti <em>Java, Delphi, Visual Basic dan lain-lain</em> dengan beberapa penyederhanaan.</p>
+<h2 id="struktur-progran">Struktur Progran</h2>
+<p>Sebelum kita mempelajari blok bangunan dasar bahasa pemrograman C #, mari kita lihat struktur program C # minimum sehingga kita dapat menjadikannya sebagai referensi dalam bab-bab mendatang.</p>
+<h3 id="membuat-program-hello-world">Membuat Program Hello World</h3>
+<p>Program terdiri dari bagian-bagian berikut :</p>
+<ul>
+<li>Deklarasi Namespace</li>
+<li>Kelas</li>
+<li>Metode kelas</li>
+<li>Atribut kelas</li>
+<li>Metode Utama</li>
+<li>Pernyataan dan Ekspresi</li>
+<li>Komentar</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">using</span> System;
+
+<span style="color:#66d9ef">namespace</span> HelloWorldApplication {
+   <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorld</span> {
+      <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> Main(<span style="color:#66d9ef">string</span>[] args) {
+         <span style="color:#75715e">/* my first program in C# */</span>
+         Console.WriteLine(<span style="color:#e6db74">&#34;Hello World&#34;</span>);
+         Console.ReadKey();
+      }
+   }
+}
+</code></pre></div><p>output</p>
+<pre><code>Hello World
+</code></pre><blockquote>
+</blockquote>
+<h3 id="mari-kita-lihat-berbagai-bagian-dari-program-yang-diberikan-">Mari kita lihat berbagai bagian dari program yang diberikan :</h3>
+<ul>
+<li>
+<p>Baris pertama program menggunakan Sistem; - kata kunci menggunakan digunakan untuk memasukkan namespace Sistem dalam program. Suatu program umumnya memiliki beberapa pernyataan menggunakan .</p>
+</li>
+<li>
+<p>Baris berikutnya memiliki deklarasi namespace . Sebuah namespace adalah kumpulan kelas. The HelloWorldApplication namespace berisi kelas HelloWorld .</p>
+</li>
+<li>
+<p>Baris berikutnya memiliki deklarasi kelas , kelas HelloWorld berisi data dan definisi metode yang digunakan program Anda. Kelas umumnya mengandung banyak metode. Metode mendefinisikan perilaku kelas. Namun, kelas HelloWorld hanya memiliki satu metode Main .</p>
+</li>
+<li>
+<p>Baris berikutnya mendefinisikan metode Utama , yang merupakan titik masuk untuk semua program C #. The Main metode negara apa kelas tidak ketika dijalankan.</p>
+</li>
+<li>
+<p>Baris berikutnya /<em>&hellip;</em>/ diabaikan oleh kompiler dan ia dimasukkan untuk menambahkan komentar dalam program.</p>
+</li>
+<li>
+<p>Metode Utama menentukan perilakunya dengan pernyataan Console.WriteLine (&ldquo;Hello World&rdquo;);</p>
+</li>
+<li>
+<p>WriteLine adalah metode kelas Konsol yang didefinisikan dalam namespace Sistem . Pernyataan ini menyebabkan pesan &ldquo;Halo, Dunia!&rdquo; untuk ditampilkan di layar.</p>
+</li>
+<li>
+<p>Baris terakhir Konsol.ReadKey (); adalah untuk Pengguna VS.NET. Ini membuat program menunggu penekanan tombol dan mencegah layar dari menjalankan dan menutup dengan cepat ketika program diluncurkan dari Visual Studio .NET.</p>
+</li>
+</ul>
+<blockquote>
+</blockquote>
+<h3 id="perlu-dicatat-poin-poin-berikut-">Perlu dicatat poin-poin berikut :</h3>
+<ul>
+<li>
+<p>C # peka huruf besar-kecil.</p>
+</li>
+<li>
+<p>Semua pernyataan dan ekspresi harus diakhiri dengan tanda titik koma (;).</p>
+</li>
+<li>
+<p>Eksekusi program dimulai pada metode Utama.</p>
+</li>
+<li>
+<p>Tidak seperti Java, nama file program bisa berbeda dari nama kelas.</p>
+</li>
+</ul> 
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="5580717283"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="5580717283"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+ <aside>
+<div class="card hidden-sm hidden-xs mb-3 shadow-hover">
+  <div class="card-header bg-stripe-zero text-dark pb-0">
+    <span class="fa fa-newspaper float-right"></span>
+    <p class="card-title">Recent Posts</p>
+    <div class="clearfix"></div>
+  </div>
+  <div class="card-body py-2">
+    <ul class="card_list">
+      
+      <li><a href="https://androcode.net/posts/belajar-tailwindcss/">Belajar-Tailwindcss</a></li>
+      
+      <li><a href="https://androcode.net/posts/service-di-artixopenrc/">Manajemen Service Di Artix OpenRC</a></li>
+      
+      <li><a href="https://androcode.net/posts/install-phpmyadmin/">Install Phpmyadmin Di Linux</a></li>
+      
+      <li><a href="https://androcode.net/posts/install-nginx/">Install Nginx, PHP Dan Mysql Di Archlinux</a></li>
+      
+      <li><a href="https://androcode.net/posts/cara-hosting-static-site-dengan-surge/">Cara Deploy Static Site Dengan Surge.sh</a></li>
+      
+    </ul>
+  </div>
+</div>
+</aside>
+                
+                
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="8132225981"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+
+            </div>
+
+
+            <div class="card col-sm-12 col-lg-8 mb-5">
+                <div class="card-body">
+                    <div class="post-footer">
+                        <div id="disqus_thread"></div>
+<script>
+    
+
+    
+
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-androcode-netlify-app.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/prism.js"></script>
+<script type="text/javascript" src="/js/theme.js"></script>
+<script type="text/javascript" src="/js/dark.js"></script>
+<script id="dsq-count-scr" src="//https-androcode-netlify-app.disqus.com/count.js" async></script>
+</body>
+
+</html>

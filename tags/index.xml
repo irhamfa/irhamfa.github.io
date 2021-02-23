@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Androcode</title>
+    <link>https://androcode.net/tags/</link>
+    <description>Recent content in Tags on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 04 Feb 2021 21:35:34 +0700</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>css</title>
+      <link>https://androcode.net/tags/css/</link>
+      <pubDate>Thu, 04 Feb 2021 21:35:34 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tailwindcss</title>
+      <link>https://androcode.net/tags/tailwindcss/</link>
+      <pubDate>Thu, 04 Feb 2021 21:35:34 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/tailwindcss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>artix</title>
+      <link>https://androcode.net/tags/artix/</link>
+      <pubDate>Tue, 26 Jan 2021 08:30:33 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/artix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://androcode.net/tags/linux/</link>
+      <pubDate>Tue, 26 Jan 2021 08:30:33 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phpmyadmin</title>
+      <link>https://androcode.net/tags/phpmyadmin/</link>
+      <pubDate>Fri, 22 Jan 2021 09:48:19 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/phpmyadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>archlinux</title>
+      <link>https://androcode.net/tags/archlinux/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/archlinux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://androcode.net/tags/mysql/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nginx</title>
+      <link>https://androcode.net/tags/nginx/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://androcode.net/tags/php/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hosting</title>
+      <link>https://androcode.net/tags/hosting/</link>
+      <pubDate>Fri, 23 Oct 2020 08:52:48 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://androcode.net/tags/html/</link>
+      <pubDate>Tue, 20 Oct 2020 14:19:55 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sass</title>
+      <link>https://androcode.net/tags/sass/</link>
+      <pubDate>Fri, 16 Oct 2020 14:01:29 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/sass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flask</title>
+      <link>https://androcode.net/tags/flask/</link>
+      <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://androcode.net/tags/python/</link>
+      <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://androcode.net/tags/database/</link>
+      <pubDate>Tue, 15 Sep 2020 13:56:56 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text editor</title>
+      <link>https://androcode.net/tags/text-editor/</link>
+      <pubDate>Mon, 17 Aug 2020 13:20:54 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/text-editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>https://androcode.net/tags/terminal/</link>
+      <pubDate>Wed, 24 Jun 2020 21:25:08 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zsh</title>
+      <link>https://androcode.net/tags/zsh/</link>
+      <pubDate>Wed, 24 Jun 2020 21:25:08 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/zsh/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

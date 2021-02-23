@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SASS on Androcode</title>
+    <link>https://androcode.net/categories/sass/</link>
+    <description>Recent content in SASS on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 16 Oct 2020 14:01:29 +0700</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/categories/sass/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Belajar : Sass</title>
+      <link>https://androcode.net/posts/belajar-_-sass/</link>
+      <pubDate>Fri, 16 Oct 2020 14:01:29 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/belajar-_-sass/</guid>
+      <description>&lt;p&gt;Kalai ini kita akan belajar sass,&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

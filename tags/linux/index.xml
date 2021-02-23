@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Androcode</title>
+    <link>https://androcode.net/tags/linux/</link>
+    <description>Recent content in linux on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 26 Jan 2021 08:30:33 +0700</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Manajemen Service Di Artix OpenRC</title>
+      <link>https://androcode.net/posts/service-di-artixopenrc/</link>
+      <pubDate>Tue, 26 Jan 2021 08:30:33 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/service-di-artixopenrc/</guid>
+      <description>Halo Semua kali ini saya akan membuat tulisan untukku sendiri atau sukur&amp;rdquo; dapat membantu teman&amp;rdquo; \u263A. Saya menemukan masalah ketika saya mencoba distro linux Artix(OpenRC) saya cukup bingung gimana carannya manajemen service di artix yg saya sebelumnya dari archlinux, mungkin cukup mudah karna saya cukup familiar dan sudah banyak blog&amp;rdquo; yang membahasnya. Saya akan meenginstall Mariadb dan bagaimana menjalankan servicnya di OpenRC.
+Pertama Install Mariadb terlebih dahulu sudo pacman -S mariadb mariadb-OpenRC Dan untuk melihat daftar service bisa melalukan Perintah</description>
+    </item>
+    
+    <item>
+      <title>Install Phpmyadmin Di Linux</title>
+      <link>https://androcode.net/posts/install-phpmyadmin/</link>
+      <pubDate>Fri, 22 Jan 2021 09:48:19 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/install-phpmyadmin/</guid>
+      <description>Saya meneruskan postingan sebelumnya yang membahas tentang install nginx php dan mysql dan kali ini saya akan membagikan cara install phpmyadmin di Linux.
+Install Phpmyadmin Untuk menginstall phpmyadmin langsung masukkan Perintah sudo pacman -S phpmyadmin
+jika sudah selesai bisa konfigurasikan PHP yaitu pastikan modul ekstensi mysqli dan pdo_mysql sudah aktif. Jika belum maka edit file /etc/php/php.ini lalu uncomment dua baris berikut :
+extension=pdo_mysql extension=mysqli lalu restart php-fpm
+sudo systemctl restart php-fpm Sub directory dengan symlink buat symlink dari /usr/share/webapps/phpMyadmin/ ke lokasi /usr/share/nginx/html/ dengan perintah</description>
+    </item>
+    
+    <item>
+      <title>Cara Install Sublime Text Di Fedora</title>
+      <link>https://androcode.net/posts/cara-install-sublime-text-di-fedora/</link>
+      <pubDate>Mon, 17 Aug 2020 13:20:54 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/cara-install-sublime-text-di-fedora/</guid>
+      <description>&lt;p&gt;Sublime Text adalah  kode editor sumber lintas platform, dan cukup ringan bagi laptop kentang seperti punya saya 😢.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Namauser Is Not in the Sudoers File</title>
+      <link>https://androcode.net/posts/namauser-is-not-in-the-sudoers-file.-this-incident-will-be-reported/</link>
+      <pubDate>Mon, 10 Aug 2020 06:47:01 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/namauser-is-not-in-the-sudoers-file.-this-incident-will-be-reported/</guid>
+      <description>&lt;p&gt;Masalah ini saya temukan, mungkin karena ada konflik dengan file konfigurasi pada folder /home saya (dari sistem operasi sebelumnya, Kubuntu 18.04) tapi ini insyaallah bisa di semua distro.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Begini Cara Mempercantik Tampilan Terminal Linux Anda</title>
+      <link>https://androcode.net/posts/memasang-zsh-dan-oh-my-zsh-di-linux/</link>
+      <pubDate>Wed, 24 Jun 2020 21:25:08 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/memasang-zsh-dan-oh-my-zsh-di-linux/</guid>
+      <description>&lt;p&gt;Z Shell atau lebih dikenal dengan nama zsh adalah sebuah interactive UNIX shell seperti halnya bash yang biasa kita pakai.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

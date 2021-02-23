@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C Sharp on Androcode</title>
+    <link>https://androcode.net/categories/c-sharp/</link>
+    <description>Recent content in C Sharp on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 24 Jul 2020 09:18:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>C Sharp : Basic Syntax</title>
+      <link>https://androcode.net/posts/c-sharp-_-basic-syntax/</link>
+      <pubDate>Fri, 24 Jul 2020 09:18:40 +0000</pubDate>
+      
+      <guid>https://androcode.net/posts/c-sharp-_-basic-syntax/</guid>
+      <description>&lt;p&gt;C # adalah bahasa pemrograman berorientasi objek. Dalam metodologi Pemrograman Berorientasi Objek, suatu program terdiri dari berbagai objek yang saling berinteraksi melalui tindakan.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>C Sharp</title>
+      <link>https://androcode.net/posts/c-sharp/</link>
+      <pubDate>Fri, 10 Jul 2020 13:23:47 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/c-sharp/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt; merupakan bahasa pemrograman berorientasi objek yang di kembangkan oleh &lt;strong&gt;Microsoft&lt;/strong&gt; sebagai bagian dari inisiatif kerangka &lt;strong&gt;.Net Framework&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on Androcode</title>
+    <link>https://androcode.net/tags/mysql/</link>
+    <description>Recent content in mysql on Androcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Jan 2021 09:21:39 +0700</lastBuildDate>
+    
+	<atom:link href="https://androcode.net/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Nginx, PHP Dan Mysql Di Archlinux</title>
+      <link>https://androcode.net/posts/install-nginx/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/install-nginx/</guid>
+      <description>Jadi saya membuat tutorial ini setelah saya ahirnya berhasil menginstall archlinux setelah beberapa kali pecobaan gagal ☺. Daripada nanti kalau saya mau install dan lupa harus browsing&amp;rdquo; dulu. Baik kalau gitu mari kita beraksi.
+Pertama update Sistem sudo pacman -Syu Install Nginx sudo pacman -S nginx Aktifkan nginx agar bisa start up saat booting.
+sudo systemctl start nginx sudo systemctl enable nginx Jika proses di atas sudah selesai tanpa kendala apapun maka seharusnya jika kita membuka localhost maka sudah terbuka seperti ini: Install PHP Install php dengan melakukan Perintah</description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://androcode.net/posts/mysql/</link>
+      <pubDate>Sat, 12 Sep 2020 14:44:50 +0700</pubDate>
+      
+      <guid>https://androcode.net/posts/mysql/</guid>
+      <description>&lt;p&gt;MySQL adalah sebuah perangkat lunak sistem manajemen basis data SQL (bahasa Inggris: database management system) atau DBMS yang multialur, multipengguna, dengan sekitar 6 juta instalasi di seluruh dunia.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

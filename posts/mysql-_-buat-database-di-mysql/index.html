@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mysql : Buat Database Mysql di Terminal</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta itemprop="name" content="Mysql : Buat Database Mysql di Terminal">
+<meta itemprop="description" content="database mysql sendiri bisa dibuat dengan _phpmyadmin_  lewat browser untuk cara installnya kalian bisa cari tutorialnya sendiri. Baik kalau gitu mari kita mulai saja buat databasenya">
+<meta itemprop="datePublished" content="2020-09-15T13:56:56+07:00" />
+<meta itemprop="dateModified" content="2020-09-15T13:56:56+07:00" />
+<meta itemprop="wordCount" content="354">
+
+
+
+<meta itemprop="keywords" content="database," />
+
+
+<meta property="og:title" content="Mysql : Buat Database Mysql di Terminal" />
+<meta property="og:description" content="database mysql sendiri bisa dibuat dengan _phpmyadmin_  lewat browser untuk cara installnya kalian bisa cari tutorialnya sendiri. Baik kalau gitu mari kita mulai saja buat databasenya" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://androcode.net/posts/mysql-_-buat-database-di-mysql/" />
+<meta property="article:published_time" content="2020-09-15T13:56:56+07:00" />
+<meta property="article:modified_time" content="2020-09-15T13:56:56+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mysql : Buat Database Mysql di Terminal"/>
+<meta name="twitter:description" content="database mysql sendiri bisa dibuat dengan _phpmyadmin_  lewat browser untuk cara installnya kalian bisa cari tutorialnya sendiri. Baik kalau gitu mari kita mulai saja buat databasenya"/>
+
+
+  <meta name="keywords"
+        content="Mysql, database">
+
+  <meta property="og:locale"
+        content="en">
+  <meta property="og:title"
+        content="Mysql : Buat Database Mysql di Terminal">
+  <meta property="og:url"
+       content="https://androcode.net/posts/mysql-_-buat-database-di-mysql/">
+  <meta property="og:site_name"
+       content="Androcode">
+
+  <meta property="og:latitude"     content="-6.193665"/>
+  <meta property="og:longitude"    content="106.848558"/>
+  <meta property="og:locality"     content="Jakarta"/>
+  <meta property="og:country-name" content="Indonesia"/>
+
+
+  <meta name="twitter:title"
+        content="Mysql : Buat Database Mysql di Terminal">
+
+
+
+
+<link rel="icon" href="/img/Androcode.svg" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/dark.css" />
+<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+<script data-ad-client="ca-pub-3292042350270691" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-168737261-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head>
+<style>
+body {
+    font-family: 'Amita';font-size: 16px;
+}
+</style>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+    <div class="container">
+
+        <a class="navbar-brand" href="https://androcode.net"><img src="/img/Androcode.svg" width="30" height="30" class="d-inline-block align-top rounded-circle"
+            alt=""> Androcode</a>
+        <button class="navbar-toggler d-sm-none d-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-sm-none d-none" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://androcode.net">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/search">Search</a>
+                </li>
+                
+            </ul>
+            &ensp;&ensp;&ensp;
+           
+        </div>
+        
+
+    </div>
+</nav>
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
+    <ul class="navbar-nav nav-justified w-100">
+      <li class="nav-item">
+        <a class="nav-link" href="https://androcode.net">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg>
+        </a>
+        <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="/search" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-plus-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/contact" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/about" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+    <br><br>
+    <div class="container mb-5">
+        <div class="row">
+
+            <div class="col-sm-12 col-lg-8 mb-5 card">
+                <article>
+                    <div class="">
+                        <div class="card-body p-md-5">
+
+                            <div class="post-header mb-5">
+
+                                <div class="mb-3">
+                                    <img src="/img/face.svg" class="rounded-circle" width="32" height="32" />
+                                    <a href="https://github.com/irhamfa" style="color: black;">Irham</a> . Update terahir <time>15-Sep-2020</time>
+                                </div>
+
+                                <h2 class="card-title mb-3">Mysql : Buat Database Mysql di Terminal</h2>
+
+                                <div>
+                                    
+                                    <span class="badge badge-success">
+                                             #<a class="text-white" href="/tags/database">database</a>
+                                        </span> 
+                                </div>
+
+                            </div>
+                            <div class="post-content">
+                                <p>Di postingan sebelumnya kita sudah mengetahui <a href="https://androcode.netlify.app/post/mysql/">apa itu mysql dan cara installnya</a>, kali ini kita akan membuat database mysql di terminal,</p>
+<p>dan database mysql sendiri bisa dibuat dengan <em>phpmyadmin</em>  lewat browser untuk cara installnya kalian bisa cari tutorialnya sendiri.
+Baik kalau gitu mari kita mulai saja buat databasenya :</p>
+<ul>
+<li>Masuk ke dalam pengolahan data mysql dengan memasukkan perintah berikut di terminal anda</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">sudo mysql -u root -p
+</code></pre></div><p>Kemudian masukkan password anda yg sudah di setinng sebelumnya
+jika berhasil akan muncul tampilan seperti berikut</p>
+<p><img src="https://1.bp.blogspot.com/-_owMToHBEDo/X2pnsfguwBI/AAAAAAAAE5A/FUwWUDGwLOAH25WV2FMkbHR1FsMAVg-owCLcBGAsYHQ/s574/viewmysql.jpg" alt="Mysql"></p>
+<ul>
+<li>Setelah masuk kita bisa buat database dengan memasukkan perintah</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">CREATE DATABASE db_name;
+</code></pre></div><p>Ganti <strong>db_name</strong> dengan nama  database yg ingin kita buat, saya akan membuat database dengan nama belajar oh iya setelah kita mengetikkan perintah di mysql jangan lupa kasih tanda ; (titik koma)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">CREATE DATABASE belajar;
+</code></pre></div><p>jika berhasik akan ada keterangan <em>Query ok</em></p>
+<p><img src="https://1.bp.blogspot.com/-I8rphqFsGJ4/X2pnrA1CDeI/AAAAAAAAE40/eYTxnKED-6cbOh_qhyk4GrVrO6QcmA5gQCLcBGAsYHQ/s597/create%2Bdatabase.png" alt="create database"></p>
+<p>Dan untuk mengecek database kita, bisa memasukkan perintah</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">SHOW DATABASE;
+</code></pre></div><p>Maka akan tampil semua database yg sudah pernah kita buat</p>
+<p><img src="https://1.bp.blogspot.com/-KKz8xre8vKk/X2pnryqZoZI/AAAAAAAAE44/hD8ijEEJMuQ1c_NjJkHC-0tPX_DFAOAmQCLcBGAsYHQ/s598/showdatabase.png" alt="show database"></p>
+<p>Dan untuk perpindah ke halaman database kita bisa mengetikkan perintah</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">USE db_name;
+</code></pre></div><p>Tadi kita buat database dengan nama belajar, maka masukkan perintah</p>
+<pre><code class="language-zhs" data-lang="zhs">USE belajar;
+</code></pre><p>Maka akan tampil seperti ini</p>
+<p><img src="https://1.bp.blogspot.com/-euyeQbalxwA/X2pnsT9dtJI/AAAAAAAAE48/EOuX0_gxO6AAuO5QZAuHiX3SayGGUnszwCLcBGAsYHQ/s579/usedb.png" alt="use db"></p>
+<p>Sampai saat ini kita sudah bisa membuat database mysql dengan nama belajar, setelah ini kita bisa membuat table di dalam database belajar.
+Untuk membuat table kita bisa memasukkan perintah</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">CREATE TABLE nama_table <span style="color:#f92672">(</span>
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR<span style="color:#f92672">(</span>255<span style="color:#f92672">)</span>,
+    alamat VARCHAR<span style="color:#f92672">(</span>255<span style="color:#f92672">)</span>
+<span style="color:#f92672">)</span>;
+</code></pre></div><p>Ganti <strong>nama_table</strong> dengan nama tabel yg ingin kalian buat, kali ini saya kan membuat nama table dengan nama <em>siswa</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">CREATE TABLE siswa<span style="color:#f92672">(</span>
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR<span style="color:#f92672">(</span>255<span style="color:#f92672">)</span>,
+    alamat VARCHAR<span style="color:#f92672">(</span>255<span style="color:#f92672">)</span>
+<span style="color:#f92672">)</span>;
+</code></pre></div><p>Jika berhasil akan tampil seperti berikut</p>
+<p><img src="https://1.bp.blogspot.com/-5tK20-K2WZQ/X2pnrMJX2BI/AAAAAAAAE4s/Y0zST5JjUu4YBmXEhklhgcduWzqAtMO-gCLcBGAsYHQ/s597/createtable.png" alt="create table"></p>
+<p>Untuk memasukkan data ke dalam table siswa kita bisa memasukkan perintah</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">INSERT INTO siswa<span style="color:#f92672">(</span>nama, alamat<span style="color:#f92672">)</span> VALUES <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Irham&#34;</span>, <span style="color:#e6db74">&#34;Bungu&#34;</span><span style="color:#f92672">)</span>;
+</code></pre></div><p>Ganti data sesuai keinginan anda, dan jika berhasil akan ada keterangan <em>Query ok</em></p>
+<p>Untuk melihat data di dalam table siswa kita bisa memasukkan perintah</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">SELECT * FROM siswa;
+</code></pre></div><p>Untuk <strong>siswa</strong> ganti sesuai dg nama table anda.
+Maka tampil seperti berikut</p>
+<p><img src="https://1.bp.blogspot.com/-6oEGGbeoaaA/X2pnrF8wAcI/AAAAAAAAE4w/DuwI6PoRk9I5RAconR61VhWzaKOb4fZSACLcBGAsYHQ/s573/lihatdata.png" alt="lihat data"></p>
+<ul>
+<li>Untuk menghapus data pada table bisa memasukkan perinta</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">DELET FROM siswa WHERE id<span style="color:#f92672">=</span>1;
+</code></pre></div><p>Itu untuk menghapus data berdasarkan id nya.</p>
+<p>Dan untuk Menghapus database bisa memasukkan perintah</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">DROP DATABASE db_name;
+</code></pre></div> 
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="5580717283"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="5580717283"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+ <aside>
+<div class="card hidden-sm hidden-xs mb-3 shadow-hover">
+  <div class="card-header bg-stripe-zero text-dark pb-0">
+    <span class="fa fa-newspaper float-right"></span>
+    <p class="card-title">Recent Posts</p>
+    <div class="clearfix"></div>
+  </div>
+  <div class="card-body py-2">
+    <ul class="card_list">
+      
+      <li><a href="https://androcode.net/posts/belajar-tailwindcss/">Belajar-Tailwindcss</a></li>
+      
+      <li><a href="https://androcode.net/posts/service-di-artixopenrc/">Manajemen Service Di Artix OpenRC</a></li>
+      
+      <li><a href="https://androcode.net/posts/install-phpmyadmin/">Install Phpmyadmin Di Linux</a></li>
+      
+      <li><a href="https://androcode.net/posts/install-nginx/">Install Nginx, PHP Dan Mysql Di Archlinux</a></li>
+      
+      <li><a href="https://androcode.net/posts/cara-hosting-static-site-dengan-surge/">Cara Deploy Static Site Dengan Surge.sh</a></li>
+      
+    </ul>
+  </div>
+</div>
+</aside>
+                
+                
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="8132225981"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+
+            </div>
+
+
+            <div class="card col-sm-12 col-lg-8 mb-5">
+                <div class="card-body">
+                    <div class="post-footer">
+                        <div id="disqus_thread"></div>
+<script>
+    
+
+    
+
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-androcode-netlify-app.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/prism.js"></script>
+<script type="text/javascript" src="/js/theme.js"></script>
+<script type="text/javascript" src="/js/dark.js"></script>
+<script id="dsq-count-scr" src="//https-androcode-netlify-app.disqus.com/count.js" async></script>
+</body>
+
+</html>
