@@ -12,10 +12,10 @@
     
     <item>
       <title>Cara Deploy Static Site Dengan Surge.sh</title>
-      <link>https://androcode.net/posts/cara-hosting-static-site-dengan-surge/</link>
+      <link>https://androcode.net/surge/</link>
       <pubDate>Fri, 23 Oct 2020 08:52:48 +0700</pubDate>
       
-      <guid>https://androcode.net/posts/cara-hosting-static-site-dengan-surge/</guid>
+      <guid>https://androcode.net/surge/</guid>
       <description>&lt;p&gt;surge.sh sebuah layanan seperti hosting plus subdomain &lt;em&gt;.surge.sh&lt;/em&gt; gratis, dan hanya saja extensi file yang bisa diupload dibatasi hanya bisa file html, css, dan javascript.&lt;/p&gt;</description>
     </item>
     

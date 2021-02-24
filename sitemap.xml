@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-tailwindcss/</loc>
+    <loc>https://androcode.net/belajar-tailwindcss/</loc>
     <lastmod>2021-02-04T21:35:34+07:00</lastmod>
   </url>
   
@@ -53,7 +53,7 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/service-di-artixopenrc/</loc>
+    <loc>https://androcode.net/service-artix-openrc/</loc>
     <lastmod>2021-01-26T08:30:33+07:00</lastmod>
   </url>
   
@@ -63,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/install-phpmyadmin/</loc>
+    <loc>https://androcode.net/posts/install-phpmyadmin-di-linux/</loc>
     <lastmod>2021-01-22T09:48:19+07:00</lastmod>
   </url>
   
@@ -78,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/install-nginx/</loc>
+    <loc>https://androcode.net/lamp-stack/</loc>
     <lastmod>2021-01-20T09:21:39+07:00</lastmod>
   </url>
   
@@ -98,7 +98,7 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/cara-hosting-static-site-dengan-surge/</loc>
+    <loc>https://androcode.net/surge/</loc>
     <lastmod>2020-10-23T08:52:48+07:00</lastmod>
   </url>
   
@@ -108,7 +108,7 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-html-_-form/</loc>
+    <loc>https://androcode.net/html-form/</loc>
     <lastmod>2020-10-20T14:19:55+07:00</lastmod>
   </url>
   
@@ -123,22 +123,22 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-html-_-memahami-tag-div/</loc>
+    <loc>https://androcode.net/html-tag/</loc>
     <lastmod>2020-10-19T13:21:57+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-html-_-membuat-daftar-atau-list/</loc>
+    <loc>https://androcode.net/html-list/</loc>
     <lastmod>2020-10-18T11:34:33+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-html-_-heading/</loc>
+    <loc>https://androcode.net/htmlheading/</loc>
     <lastmod>2020-10-17T11:04:29+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-_-sass/</loc>
+    <loc>https://androcode.net/belajar-sass/</loc>
     <lastmod>2020-10-16T14:01:29+07:00</lastmod>
   </url>
   
@@ -153,7 +153,7 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-flask-_-templating-menggunakan-bootstrap/</loc>
+    <loc>https://androcode.net/flask-templating/</loc>
     <lastmod>2020-10-15T20:47:41+07:00</lastmod>
   </url>
   
@@ -178,22 +178,22 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-flask-_-routing/</loc>
+    <loc>https://androcode.net/flask-routing/</loc>
     <lastmod>2020-10-14T20:44:48+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-flask-_-flask/</loc>
+    <loc>https://androcode.net/belajar-flask/</loc>
     <lastmod>2020-10-13T20:42:18+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-python-_-function/</loc>
+    <loc>https://androcode.net/python-function/</loc>
     <lastmod>2020-09-17T14:01:29+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-python-_-if-dan-else/</loc>
+    <loc>https://androcode.net/python-percabangan/</loc>
     <lastmod>2020-09-16T13:59:35+07:00</lastmod>
   </url>
   
@@ -208,7 +208,7 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/mysql-_-buat-database-di-mysql/</loc>
+    <loc>https://androcode.net/mysql-buat-database/</loc>
     <lastmod>2020-09-15T13:56:56+07:00</lastmod>
   </url>
   
@@ -218,12 +218,12 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/mysql/</loc>
+    <loc>https://androcode.net/mariadb-mysql/</loc>
     <lastmod>2020-09-12T14:44:50+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/cara-install-sublime-text-di-fedora/</loc>
+    <loc>https://androcode.net/sublime-text-di-fedora32/</loc>
     <lastmod>2020-08-17T13:20:54+07:00</lastmod>
   </url>
   
@@ -233,12 +233,12 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/namauser-is-not-in-the-sudoers-file.-this-incident-will-be-reported/</loc>
+    <loc>https://androcode.net/nameuser-is-not-in/</loc>
     <lastmod>2020-08-10T06:47:01+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-laravel-_-install-laravel-di-linux/</loc>
+    <loc>https://androcode.net/laravel-di-linux/</loc>
     <lastmod>2020-08-09T11:44:31+07:00</lastmod>
   </url>
   
@@ -248,7 +248,7 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-python-_-loop/</loc>
+    <loc>https://androcode.net/python-loop/</loc>
     <lastmod>2020-07-24T09:46:39+00:00</lastmod>
   </url>
   
@@ -258,17 +258,17 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/c-sharp-_-basic-syntax/</loc>
+    <loc>https://androcode.net/c#-basic-syntax/</loc>
     <lastmod>2020-07-24T09:18:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/c-sharp/</loc>
+    <loc>https://androcode.net/c#/</loc>
     <lastmod>2020-07-10T13:23:47+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/memasang-zsh-dan-oh-my-zsh-di-linux/</loc>
+    <loc>https://androcode.net/costumize-terminal-linux/</loc>
     <lastmod>2020-06-24T21:25:08+07:00</lastmod>
   </url>
   
@@ -283,32 +283,32 @@
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-python-_-tipe-data-python/</loc>
+    <loc>https://androcode.net/python-tipe-data/</loc>
     <lastmod>2020-06-13T09:14:04+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-python-_-variables-python/</loc>
+    <loc>https://androcode.net/python-variable/</loc>
     <lastmod>2020-06-10T10:48:47+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-python-_-fitur-python/</loc>
+    <loc>https://androcode.net/fitur-python/</loc>
     <lastmod>2020-06-06T10:17:44+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-python-_-pengenalan-python/</loc>
+    <loc>https://androcode.net/pengertian-python/</loc>
     <lastmod>2020-06-06T08:50:27+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-html_-mengenal-tag-element-atribut-html/</loc>
+    <loc>https://androcode.net/atribut-di-html/</loc>
     <lastmod>2020-05-29T12:46:10+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/posts/belajar-html_-pengertian-html/</loc>
+    <loc>https://androcode.net/belajar-html/</loc>
     <lastmod>2020-05-29T10:50:38+07:00</lastmod>
   </url>
   

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cara Deploy Static Site Dengan Surge.sh</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta itemprop="name" content="Cara Deploy Static Site Dengan Surge.sh">
+<meta itemprop="description" content="surge.sh sebuah layanan seperti hosting plus subdomain .surge.sh gratis, dan hanya saja extensi file yang bisa diupload dibatasi hanya bisa file html, css, dan javascript.">
+<meta itemprop="datePublished" content="2020-10-23T08:52:48+07:00" />
+<meta itemprop="dateModified" content="2020-10-23T08:52:48+07:00" />
+<meta itemprop="wordCount" content="99">
+
+
+
+<meta itemprop="keywords" content="hosting," />
+
+
+<meta property="og:title" content="Cara Deploy Static Site Dengan Surge.sh" />
+<meta property="og:description" content="surge.sh sebuah layanan seperti hosting plus subdomain .surge.sh gratis, dan hanya saja extensi file yang bisa diupload dibatasi hanya bisa file html, css, dan javascript." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://androcode.net/surge/" />
+<meta property="article:published_time" content="2020-10-23T08:52:48+07:00" />
+<meta property="article:modified_time" content="2020-10-23T08:52:48+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Cara Deploy Static Site Dengan Surge.sh"/>
+<meta name="twitter:description" content="surge.sh sebuah layanan seperti hosting plus subdomain .surge.sh gratis, dan hanya saja extensi file yang bisa diupload dibatasi hanya bisa file html, css, dan javascript."/>
+
+
+  <meta name="keywords"
+        content="Tips, hosting">
+
+  <meta property="og:locale"
+        content="en">
+  <meta property="og:title"
+        content="Cara Deploy Static Site Dengan Surge.sh">
+  <meta property="og:url"
+       content="https://androcode.net/surge/">
+  <meta property="og:site_name"
+       content="Androcode">
+
+  <meta property="og:latitude"     content="-6.193665"/>
+  <meta property="og:longitude"    content="106.848558"/>
+  <meta property="og:locality"     content="Jakarta"/>
+  <meta property="og:country-name" content="Indonesia"/>
+
+
+  <meta name="twitter:title"
+        content="Cara Deploy Static Site Dengan Surge.sh">
+
+
+
+
+<link rel="icon" href="/img/Androcode.svg" />
+<script src="js/turbolinks.js"></script>
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/syntax.css" />
+<link rel="stylesheet" href="/css/dark.css" />
+<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+<script data-ad-client="ca-pub-3292042350270691" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-168737261-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head>
+<style>
+body {
+    font-family: 'Amita';font-size: 16px;
+}
+</style>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+    <div class="container">
+
+        <a class="navbar-brand" href="https://androcode.net"><img src="/img/Androcode.svg" width="30" height="30" class="d-inline-block align-top rounded-circle"
+            alt=""> Androcode</a>
+        <button class="navbar-toggler d-sm-none d-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-sm-none d-none" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://androcode.net">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/search">Search</a>
+                </li>
+                
+            </ul>
+            &ensp;&ensp;&ensp;
+           
+        </div>
+        
+
+    </div>
+</nav>
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
+    <ul class="navbar-nav nav-justified w-100">
+      <li class="nav-item">
+        <a class="nav-link" href="https://androcode.net">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg>
+        </a>
+        <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="/search" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-plus-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/contact" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/about" class="nav-link">
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+    <br><br>
+    <div class="container mb-5">
+        <div class="row">
+
+            <div class="col-sm-12 col-lg-8 mb-5 card">
+                <article>
+                    <div class="">
+                        <div class="card-body p-md-5">
+
+                            <div class="post-header mb-5">
+
+                                <div class="mb-3">
+                                    <img src="/img/face.svg" class="rounded-circle" width="32" height="32" />
+                                    <a href="https://github.com/irhamfa" style="color: black;">Irham</a> . Update terahir <time>23-Oct-2020</time>
+                                </div>
+
+                                <h2 class="card-title mb-3">Cara Deploy Static Site Dengan Surge.sh</h2>
+
+                                <div>
+                                    
+                                    <span class="badge badge-success">
+                                             #<a class="text-white" href="/tags/hosting">hosting</a>
+                                        </span> 
+                                </div>
+
+                            </div>
+                            <div class="post-content">
+                                <p>surge.sh sebuah layanan seperti hosting plus subdomain <em>.surge.sh</em> gratis, dan hanya saja extensi file yang bisa diupload dibatasi hanya bisa file html, css, dan javascript.</p>
+<h2 id="deploy-static-site-pada-surgesh">Deploy Static Site pada surge.sh</h2>
+<ul>
+<li>Pastikan sudah menginstall aplikasi nodejs bisa cek disini cara installnya <a href="http://nodejs.org/"
+    
+     target="_blank"
+    >Nodejs</a></li>
+<li>Kemudian, instal Surge menggunakan npm dengan menjalankan perintah berikut:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">npm instal -g surge
+</code></pre></div><ul>
+<li>Sekarang, jalankan surge dari dalam direktori aplikasi atau website yang ingin dipublikasikan atau dihostingkan ke web surge. Dan masukkan Email dan password anda kemudian bisa atur nama yg ingin kalian gunakan.</li>
+</ul>
+<p><img src="surge.png" alt="surge"></p>
+<ul>
+<li>Hasil aplikasi yang sudah di deploy <a href="http://androcode.surge.sh"
+    
+     target="_blank"
+    >Androcode</a>
+Jika ingin update ringgal jalanin surge lagi.</li>
+</ul> 
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="5580717283"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="5580717283"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+ <aside>
+<div class="card hidden-sm hidden-xs mb-3 shadow-hover">
+  <div class="card-header bg-stripe-zero text-dark pb-0">
+    <span class="fa fa-newspaper float-right"></span>
+    <p class="card-title">Recent Posts</p>
+    <div class="clearfix"></div>
+  </div>
+  <div class="card-body py-2">
+    <ul class="card_list">
+      
+      <li><a href="https://androcode.net/belajar-tailwindcss/">Belajar-Tailwindcss</a></li>
+      
+      <li><a href="https://androcode.net/service-artix-openrc/">Manajemen Service Di Artix OpenRC</a></li>
+      
+      <li><a href="https://androcode.net/posts/install-phpmyadmin-di-linux/">Install Phpmyadmin Di Linux</a></li>
+      
+      <li><a href="https://androcode.net/lamp-stack/">Install Nginx, PHP Dan Mysql Di Archlinux</a></li>
+      
+      <li><a href="https://androcode.net/surge/">Cara Deploy Static Site Dengan Surge.sh</a></li>
+      
+    </ul>
+  </div>
+</div>
+</aside>
+                
+                
+<div class="white hoverable p-t-5 p-b-5">
+  <div class="widget-body teal lighten-5">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3292042350270691"
+     data-ad-slot="8132225981"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  </div>
+</div>
+
+
+            </div>
+
+
+            <div class="card col-sm-12 col-lg-8 mb-5">
+                <div class="card-body">
+                    <div class="post-footer">
+                        <div id="disqus_thread"></div>
+<script>
+    
+
+    
+
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-androcode-netlify-app.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/prism.js"></script>
+<script type="text/javascript" src="/js/theme.js"></script>
+<script type="text/javascript" src="/js/dark.js"></script>
+<script id="dsq-count-scr" src="//https-androcode-netlify-app.disqus.com/count.js" async></script>
+</body>
+
+</html>
