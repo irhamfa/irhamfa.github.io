@@ -5,10 +5,19 @@
     <link>https://androcode.net/categories/</link>
     <description>Recent content in Categories on Androcode</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 04 Feb 2021 21:35:34 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 02 Mar 2021 14:37:50 +0700</lastBuildDate>
     
 	<atom:link href="https://androcode.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pemrograman</title>
+      <link>https://androcode.net/categories/pemrograman/</link>
+      <pubDate>Tue, 02 Mar 2021 14:37:50 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/pemrograman/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Css</title>

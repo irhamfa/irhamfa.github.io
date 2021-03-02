@@ -12,10 +12,10 @@
     
     <item>
       <title>Install Phpmyadmin Di Linux</title>
-      <link>https://androcode.net/posts/install-phpmyadmin-di-linux/</link>
+      <link>https://androcode.net/install-phpmyadmin/</link>
       <pubDate>Fri, 22 Jan 2021 09:48:19 +0700</pubDate>
       
-      <guid>https://androcode.net/posts/install-phpmyadmin-di-linux/</guid>
+      <guid>https://androcode.net/install-phpmyadmin/</guid>
       <description>Saya meneruskan postingan sebelumnya yang membahas tentang install nginx php dan mysql dan kali ini saya akan membagikan cara install phpmyadmin di Linux.
 Install Phpmyadmin Untuk menginstall phpmyadmin langsung masukkan Perintah sudo pacman -S phpmyadmin
 jika sudah selesai bisa konfigurasikan PHP yaitu pastikan modul ekstensi mysqli dan pdo_mysql sudah aktif. Jika belum maka edit file /etc/php/php.ini lalu uncomment dua baris berikut :

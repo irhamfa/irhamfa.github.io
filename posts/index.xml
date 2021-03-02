@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Django Instalasi</title>
+      <link>https://androcode.net/django-instalasi/</link>
+      <pubDate>Tue, 02 Mar 2021 14:37:50 +0700</pubDate>
+      
+      <guid>https://androcode.net/django-instalasi/</guid>
+      <description>Saat ini saya lagi belajar Django, Django merupakan salah satu framework python. Kali ini saya akan belajar instalasi django dan semoga nanti ada terusannya.
+Setup django sudo pacman -S python jika sudah selesai bisa masukkan perintah python di terminal maka nanti akan ada versi python yang kita gunakan Python 3.9.2 (default, Feb 21 2021, 02:28:33) [GCC 10.2.0] on linux Type &amp;#34;help&amp;#34;, &amp;#34;copyright&amp;#34;, &amp;#34;credits&amp;#34; or &amp;#34;license&amp;#34; for more information. &amp;gt;&amp;gt;&amp;gt;
+saya pada saat ini menggunakan versi 3.</description>
+    </item>
+    
+    <item>
       <title>Belajar-Tailwindcss</title>
       <link>https://androcode.net/belajar-tailwindcss/</link>
       <pubDate>Thu, 04 Feb 2021 21:35:34 +0700</pubDate>
@@ -32,10 +43,10 @@ Pertama Install Mariadb terlebih dahulu sudo pacman -S mariadb mariadb-OpenRC Da
     
     <item>
       <title>Install Phpmyadmin Di Linux</title>
-      <link>https://androcode.net/posts/install-phpmyadmin-di-linux/</link>
+      <link>https://androcode.net/install-phpmyadmin/</link>
       <pubDate>Fri, 22 Jan 2021 09:48:19 +0700</pubDate>
       
-      <guid>https://androcode.net/posts/install-phpmyadmin-di-linux/</guid>
+      <guid>https://androcode.net/install-phpmyadmin/</guid>
       <description>Saya meneruskan postingan sebelumnya yang membahas tentang install nginx php dan mysql dan kali ini saya akan membagikan cara install phpmyadmin di Linux.
 Install Phpmyadmin Untuk menginstall phpmyadmin langsung masukkan Perintah sudo pacman -S phpmyadmin
 jika sudah selesai bisa konfigurasikan PHP yaitu pastikan modul ekstensi mysqli dan pdo_mysql sudah aktif. Jika belum maka edit file /etc/php/php.ini lalu uncomment dua baris berikut :

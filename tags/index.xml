@@ -5,10 +5,19 @@
     <link>https://androcode.net/tags/</link>
     <description>Recent content in Tags on Androcode</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 04 Feb 2021 21:35:34 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 02 Mar 2021 14:37:50 +0700</lastBuildDate>
     
 	<atom:link href="https://androcode.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>python</title>
+      <link>https://androcode.net/tags/python/</link>
+      <pubDate>Tue, 02 Mar 2021 14:37:50 +0700</pubDate>
+      
+      <guid>https://androcode.net/tags/python/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>css</title>
@@ -124,15 +133,6 @@
       <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
       
       <guid>https://androcode.net/tags/flask/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://androcode.net/tags/python/</link>
-      <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
-      
-      <guid>https://androcode.net/tags/python/</guid>
       <description></description>
     </item>
     
