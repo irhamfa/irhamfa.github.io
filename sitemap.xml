@@ -13,12 +13,22 @@
   </url>
   
   <url>
+    <loc>https://androcode.net/categories/django/</loc>
+    <lastmod>2021-03-02T14:37:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://androcode.net/tags/django/</loc>
+    <lastmod>2021-03-02T14:37:50+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://androcode.net/django-instalasi/</loc>
     <lastmod>2021-03-02T14:37:50+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://androcode.net/categories/pemrograman/</loc>
+    <loc>https://androcode.net/categories/python/</loc>
     <lastmod>2021-03-02T14:37:50+07:00</lastmod>
   </url>
   
@@ -179,11 +189,6 @@
   
   <url>
     <loc>https://androcode.net/tags/flask/</loc>
-    <lastmod>2020-10-15T20:47:41+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://androcode.net/categories/python/</loc>
     <lastmod>2020-10-15T20:47:41+07:00</lastmod>
   </url>
   

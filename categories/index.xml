@@ -11,11 +11,20 @@
     
     
     <item>
-      <title>Pemrograman</title>
-      <link>https://androcode.net/categories/pemrograman/</link>
+      <title>Django</title>
+      <link>https://androcode.net/categories/django/</link>
       <pubDate>Tue, 02 Mar 2021 14:37:50 +0700</pubDate>
       
-      <guid>https://androcode.net/categories/pemrograman/</guid>
+      <guid>https://androcode.net/categories/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://androcode.net/categories/python/</link>
+      <pubDate>Tue, 02 Mar 2021 14:37:50 +0700</pubDate>
+      
+      <guid>https://androcode.net/categories/python/</guid>
       <description></description>
     </item>
     
@@ -70,15 +79,6 @@
       <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
       
       <guid>https://androcode.net/categories/flask/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://androcode.net/categories/python/</link>
-      <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
-      
-      <guid>https://androcode.net/categories/python/</guid>
       <description></description>
     </item>
     
