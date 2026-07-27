@@ -42,8 +42,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   ]
 
 [security]
-  [security.allowContent]
-    types = ['.*']
+  allowContent = ['^text/html$']
 
   allowContent = 'none'
   enableInlineShortcodes = false
