@@ -42,7 +42,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   ]
 
 [security]
-  allowContent = ['^text/html$']
+  allowContent = ['^text/.*']
 
 
 [taxonomies]
