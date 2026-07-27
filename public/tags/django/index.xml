@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django on Androcode</title>
+    <link>http://localhost:1313/tags/django/</link>
+    <description>Recent content in Django on Androcode</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Mar 2021 14:37:50 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django Instalasi</title>
+      <link>http://localhost:1313/Django-Instalasi/</link>
+      <pubDate>Tue, 02 Mar 2021 14:37:50 +0700</pubDate>
+      <guid>http://localhost:1313/Django-Instalasi/</guid>
+      <description>&lt;p&gt;Saat ini saya lagi belajar Django, Django merupakan salah satu framework python.&#xA;Kali ini saya akan belajar instalasi django dan semoga nanti ada terusannya.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setup-django&#34;&gt;Setup django&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S python&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;jika sudah selesai bisa masukkan perintah python di terminal maka nanti akan ada versi python yang kita gunakan&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Python 3.9.2 &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;default, Feb &lt;span style=&#34;color:#ae81ff&#34;&gt;21&lt;/span&gt; 2021, 02:28:33&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;GCC 10.2.0&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; on linux&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Type &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;help&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;copyright&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;credits&amp;#34;&lt;/span&gt; or &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;license&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; more information.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;saya pada saat ini menggunakan versi 3.9.2 bisa jadi kalian nanti menggunakan versi lebih tinggi dari pubya saya,&#xA;walaupun versi python kita berbeda tapi insyaallah nanti tidak akan terjadi apa-apa.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on Androcode</title>
+    <link>http://localhost:1313/tags/mysql/</link>
+    <description>Recent content in Mysql on Androcode</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Jan 2021 09:21:39 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Nginx, PHP Dan Mysql Di Archlinux</title>
+      <link>http://localhost:1313/install-nginx/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      <guid>http://localhost:1313/install-nginx/</guid>
+      <description>&lt;p&gt;Jadi saya membuat tutorial ini setelah saya ahirnya berhasil menginstall archlinux&#xA;setelah beberapa kali pecobaan gagal ☺.&#xA;Daripada nanti kalau saya mau install dan lupa harus browsing&amp;quot; dulu.&#xA;Baik kalau gitu mari kita beraksi.&lt;/p&gt;&#xA;&lt;h3 id=&#34;pertama-update-sistem&#34;&gt;Pertama update Sistem&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -Syu&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;install-nginx&#34;&gt;Install Nginx&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S nginx&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Aktifkan nginx agar bisa start up saat booting.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo systemctl start nginx&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo systemctl enable nginx&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Jika proses di atas sudah selesai tanpa kendala apapun maka seharusnya jika kita&#xA;membuka &lt;em&gt;localhost&lt;/em&gt; maka sudah terbuka seperti ini:&#xA;&lt;img src=&#34;nginx.png&#34; alt=&#34;nginx&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mysql</title>
+      <link>http://localhost:1313/posts/mysql/</link>
+      <pubDate>Sat, 12 Sep 2020 14:44:50 +0700</pubDate>
+      <guid>http://localhost:1313/posts/mysql/</guid>
+      <description>&lt;p&gt;MySQL adalah sebuah perangkat lunak sistem manajemen basis data SQL (bahasa Inggris: database management system) atau DBMS yang multialur, multipengguna, dengan sekitar 6 juta instalasi di seluruh dunia.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

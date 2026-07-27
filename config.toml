@@ -1,0 +1,52 @@
+title = "Androcode"
+baseurl = "https://androcode.my.id"
+
+# Agar front-matter pakai format YAML
+MetaDataFormat = "yaml"
+
+# untuk apply temanya
+themesDir = "themes"
+theme = "wewe"
+
+# Shortname disqus, silahkan sesuaikan
+DisqusShortname = "irhamidn"
+
+# Untuk Google Analytic, silahkan sesuikan
+googleAnalytics = "G-S9W0XLD1HE" 
+
+# Untuk deskripsi tag meta di homepage
+[params]
+  Description = "Make a Move : Learn by learn"
+
+  keywords  = [
+    "sass", "ssg", "static site",
+    "jekyll", "hugo", "hexo", "11ty", "eleventy", 
+    "bootstrap", "bulma", "materialize", "python", "html",
+    "django", "flask", "c/c++", "java", "css", "sass",
+    "linux", "tailwindcss", "flask", "django", "html"
+  ]
+# Biodata Author
+[author]
+    name = "Irham"
+    homepage = "https://github.com/irhamfa"
+    bio = "Asik By : Susanti"
+    image = "/img/face.svg"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[outputs]
+  section = ["html", "rss", "json"]
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories"
+
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5

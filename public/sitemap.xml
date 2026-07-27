@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+   
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-27T12:46:10+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/install-bun/</loc>
+    <lastmod>2022-07-23T02:39:04+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-07-27T12:46:10+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/tips/</loc>
+    <lastmod>2022-07-23T02:39:04+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/tutorial/</loc>
+    <lastmod>2022-07-23T02:39:04+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/django/</loc>
+    <lastmod>2021-03-02T14:37:50+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/django/</loc>
+    <lastmod>2021-03-02T14:37:50+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/Django-Instalasi/</loc>
+    <lastmod>2021-03-02T14:37:50+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/python/</loc>
+    <lastmod>2021-03-02T14:37:50+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2021-03-02T14:37:50+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-tailwindcss/</loc>
+    <lastmod>2021-02-04T21:35:34+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/css/</loc>
+    <lastmod>2021-02-04T21:35:34+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/css/</loc>
+    <lastmod>2021-02-04T21:35:34+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/tailwindcss/</loc>
+    <lastmod>2021-02-04T21:35:34+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/tailwindcss/</loc>
+    <lastmod>2021-02-04T21:35:34+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/artix/</loc>
+    <lastmod>2021-01-26T08:30:33+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2021-01-26T08:30:33+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/service-di-artix-linux/</loc>
+    <lastmod>2021-01-26T08:30:33+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/tips/</loc>
+    <lastmod>2021-01-26T08:30:33+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/install-phpmyadmin/</loc>
+    <lastmod>2021-01-22T09:48:19+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/phpmyadmin/</loc>
+    <lastmod>2021-01-22T09:48:19+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/archlinux/</loc>
+    <lastmod>2021-01-20T09:21:39+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/install-nginx/</loc>
+    <lastmod>2021-01-20T09:21:39+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/mysql/</loc>
+    <lastmod>2021-01-20T09:21:39+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/nginx/</loc>
+    <lastmod>2021-01-20T09:21:39+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/php/</loc>
+    <lastmod>2021-01-20T09:21:39+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/cara-hosting-static-site-dengan-surge/</loc>
+    <lastmod>2020-10-23T08:52:48+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/hosting/</loc>
+    <lastmod>2020-10-23T08:52:48+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-html-_-form/</loc>
+    <lastmod>2020-10-20T14:19:55+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/html/</loc>
+    <lastmod>2026-07-27T12:46:10+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/html/</loc>
+    <lastmod>2026-07-27T12:46:10+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-html-_-memahami-tag-div/</loc>
+    <lastmod>2020-10-19T13:21:57+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-html-_-membuat-daftar-atau-list/</loc>
+    <lastmod>2020-10-18T11:34:33+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-html-_-heading/</loc>
+    <lastmod>2020-10-17T11:04:29+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-_-sass/</loc>
+    <lastmod>2020-10-16T14:01:29+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/sass/</loc>
+    <lastmod>2020-10-16T14:01:29+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/sass/</loc>
+    <lastmod>2020-10-16T14:01:29+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-flask-_-templating-menggunakan-bootstrap/</loc>
+    <lastmod>2020-10-15T20:47:41+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/flask/</loc>
+    <lastmod>2020-10-15T20:47:41+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/flask/</loc>
+    <lastmod>2020-10-15T20:47:41+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-flask-_-routing/</loc>
+    <lastmod>2020-10-14T20:44:48+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-flask-_-flask/</loc>
+    <lastmod>2020-10-13T20:42:18+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-python-_-function/</loc>
+    <lastmod>2020-09-17T14:01:29+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-python-_-if-dan-else/</loc>
+    <lastmod>2020-09-16T13:59:35+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/database/</loc>
+    <lastmod>2020-09-15T13:56:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/mysql/</loc>
+    <lastmod>2020-09-15T13:56:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/mysql-_-buat-database-di-mysql/</loc>
+    <lastmod>2020-09-15T13:56:56+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/database/</loc>
+    <lastmod>2020-09-12T14:44:50+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/mysql/</loc>
+    <lastmod>2020-09-12T14:44:50+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/cara-install-sublime-text-di-fedora/</loc>
+    <lastmod>2020-08-17T13:20:54+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/text-editor/</loc>
+    <lastmod>2020-08-17T13:20:54+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/namauser-is-not-in-the-sudoers-file.-this-incident-will-be-reported/</loc>
+    <lastmod>2020-08-10T06:47:01+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-laravel-_-install-laravel-di-linux/</loc>
+    <lastmod>2020-08-09T11:44:31+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/php/</loc>
+    <lastmod>2020-08-09T11:44:31+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-python-_-loop/</loc>
+    <lastmod>2020-07-24T09:46:39+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/categories/c-sharp/</loc>
+    <lastmod>2020-07-24T09:18:40+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/c-sharp-_-basic-syntax/</loc>
+    <lastmod>2020-07-24T09:18:40+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/c-sharp/</loc>
+    <lastmod>2020-07-10T13:23:47+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/memasang-zsh-dan-oh-my-zsh-di-linux/</loc>
+    <lastmod>2020-06-24T21:25:08+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/terminal/</loc>
+    <lastmod>2020-06-24T21:25:08+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/zsh/</loc>
+    <lastmod>2020-06-24T21:25:08+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-python-_-tipe-data-python/</loc>
+    <lastmod>2020-06-13T09:14:04+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-python-_-variables-python/</loc>
+    <lastmod>2020-06-10T10:48:47+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-python-_-fitur-python/</loc>
+    <lastmod>2020-06-06T10:17:44+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-python-_-pengenalan-python/</loc>
+    <lastmod>2020-06-06T08:50:27+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-html_-mengenal-tag-element-atribut-html/</loc>
+    <lastmod>2026-07-27T12:46:10+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/belajar-html_-pengertian-html/</loc>
+    <lastmod>2020-05-29T10:50:38+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2010-05-29T15:06:31+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2010-05-29T15:06:31+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/contact/</loc>
+    <lastmod>2010-05-29T15:06:31+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/search/</loc>
+    <lastmod>2010-05-29T15:06:31+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/series/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+   
+</urlset>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on Androcode</title>
+    <link>http://localhost:1313/categories/css/</link>
+    <description>Recent content in Css on Androcode</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Feb 2021 21:35:34 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belajar-Tailwindcss</title>
+      <link>http://localhost:1313/posts/belajar-tailwindcss/</link>
+      <pubDate>Thu, 04 Feb 2021 21:35:34 +0700</pubDate>
+      <guid>http://localhost:1313/posts/belajar-tailwindcss/</guid>
+      <description>&lt;p&gt;Hallo saya hari ini lagi mencoba belajar Taulwindcss, saya awalnya sedikit kesulitan bagaimana installnya dan menggunakanya.&#xA;Mungkin tulisan ini gak bisa jadi patokan bagaimana cara install dan penggunaanya dan saya lebih merekomendasika langsung dari Dokumentasi {{ newtabref  href=&amp;ldquo;&lt;a href=&#34;https://tailwindcss.com/docs/?ref=androcode.netlify.app%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://tailwindcss.com/docs/?ref=androcode.netlify.app&#34;&lt;/a&gt;&#xA; title=&amp;ldquo;Tailwindcss&amp;rdquo; }} itu sendiri.&lt;/p&gt;&#xA;&lt;h5 id=&#34;kenapa-gak-pakai-bootstrap-aja-&#34;&gt;Kenapa gak pakai bootstrap aja ?&lt;/h5&gt;&#xA;&lt;p&gt;Saya pribadi masih menggunakan bootstrap untuk belajar&amp;rdquo; dan saya belajar Tailwindcss karna ingin mengetahui dan mempelajari&#xA;Framewrok-framewrok lain dari CSS gak ada kemungkinan nanti saya akan mempelajari yg lain.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

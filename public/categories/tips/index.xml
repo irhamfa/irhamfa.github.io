@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on Androcode</title>
+    <link>http://localhost:1313/categories/tips/</link>
+    <description>Recent content in Tips on Androcode</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Jan 2021 08:30:33 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manajemen Service Di Artix OpenRC</title>
+      <link>http://localhost:1313/service-di-artix-linux/</link>
+      <pubDate>Tue, 26 Jan 2021 08:30:33 +0700</pubDate>
+      <guid>http://localhost:1313/service-di-artix-linux/</guid>
+      <description>&lt;p&gt;Halo Semua kali ini saya akan membuat tulisan untukku sendiri atau sukur&amp;quot; dapat membantu teman&amp;quot; \u263A.&#xA;Saya menemukan masalah ketika saya mencoba distro linux Artix(OpenRC) saya cukup bingung gimana carannya manajemen service di artix yg saya sebelumnya dari archlinux, mungkin cukup mudah karna saya cukup familiar dan sudah banyak blog&amp;quot; yang membahasnya.&#xA;Saya akan meenginstall Mariadb dan bagaimana menjalankan servicnya di OpenRC.&lt;/p&gt;&#xA;&lt;h3 id=&#34;pertama-install-mariadb-terlebih-dahulu&#34;&gt;Pertama Install Mariadb terlebih dahulu&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S mariadb mariadb-OpenRC&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Dan untuk melihat daftar service bisa melalukan Perintah&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install Phpmyadmin Di Linux</title>
+      <link>http://localhost:1313/posts/install-phpmyadmin/</link>
+      <pubDate>Fri, 22 Jan 2021 09:48:19 +0700</pubDate>
+      <guid>http://localhost:1313/posts/install-phpmyadmin/</guid>
+      <description>&lt;p&gt;Saya meneruskan postingan sebelumnya yang membahas tentang &lt;a href=&#34;https://androcode.netlify.app/posts/install-nginx/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install nginx php dan mysql&lt;/a&gt;&#xA;&#xA;dan kali ini saya akan membagikan cara install phpmyadmin di Linux.&lt;/p&gt;&#xA;&lt;h3 id=&#34;install-phpmyadmin&#34;&gt;Install Phpmyadmin&lt;/h3&gt;&#xA;&lt;p&gt;Untuk menginstall phpmyadmin langsung masukkan Perintah&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S phpmyadmin&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;jika sudah selesai bisa konfigurasikan PHP&#xA;yaitu pastikan modul ekstensi mysqli dan pdo_mysql sudah aktif.&#xA;Jika belum maka edit file &lt;strong&gt;/etc/php/php.ini&lt;/strong&gt;&#xA;lalu uncomment dua baris berikut :&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;extension&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;pdo_mysql&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;extension&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;mysqli&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;lalu restart php-fpm&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo systemctl restart php-fpm&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;sub-directory-dengan-symlink&#34;&gt;Sub directory dengan symlink&lt;/h3&gt;&#xA;&lt;p&gt;buat symlink dari &lt;em&gt;/usr/share/webapps/phpMyadmin/&lt;/em&gt; ke lokasi &lt;em&gt;/usr/share/nginx/html/&lt;/em&gt;&#xA;dengan perintah&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install Nginx, PHP Dan Mysql Di Archlinux</title>
+      <link>http://localhost:1313/install-nginx/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      <guid>http://localhost:1313/install-nginx/</guid>
+      <description>&lt;p&gt;Jadi saya membuat tutorial ini setelah saya ahirnya berhasil menginstall archlinux&#xA;setelah beberapa kali pecobaan gagal ☺.&#xA;Daripada nanti kalau saya mau install dan lupa harus browsing&amp;quot; dulu.&#xA;Baik kalau gitu mari kita beraksi.&lt;/p&gt;&#xA;&lt;h3 id=&#34;pertama-update-sistem&#34;&gt;Pertama update Sistem&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -Syu&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;install-nginx&#34;&gt;Install Nginx&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S nginx&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Aktifkan nginx agar bisa start up saat booting.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo systemctl start nginx&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo systemctl enable nginx&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Jika proses di atas sudah selesai tanpa kendala apapun maka seharusnya jika kita&#xA;membuka &lt;em&gt;localhost&lt;/em&gt; maka sudah terbuka seperti ini:&#xA;&lt;img src=&#34;nginx.png&#34; alt=&#34;nginx&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cara Deploy Static Site Dengan Surge.sh</title>
+      <link>http://localhost:1313/posts/cara-hosting-static-site-dengan-surge/</link>
+      <pubDate>Fri, 23 Oct 2020 08:52:48 +0700</pubDate>
+      <guid>http://localhost:1313/posts/cara-hosting-static-site-dengan-surge/</guid>
+      <description>&lt;p&gt;surge.sh sebuah layanan seperti hosting plus subdomain &lt;em&gt;.surge.sh&lt;/em&gt; gratis, dan hanya saja extensi file yang bisa diupload dibatasi hanya bisa file html, css, dan javascript.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cara Install Sublime Text Di Fedora</title>
+      <link>http://localhost:1313/posts/cara-install-sublime-text-di-fedora/</link>
+      <pubDate>Mon, 17 Aug 2020 13:20:54 +0700</pubDate>
+      <guid>http://localhost:1313/posts/cara-install-sublime-text-di-fedora/</guid>
+      <description>&lt;p&gt;Sublime Text adalah  kode editor sumber lintas platform, dan cukup ringan bagi laptop kentang seperti punya saya 😢.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Namauser Is Not in the Sudoers File</title>
+      <link>http://localhost:1313/posts/namauser-is-not-in-the-sudoers-file.-this-incident-will-be-reported/</link>
+      <pubDate>Mon, 10 Aug 2020 06:47:01 +0700</pubDate>
+      <guid>http://localhost:1313/posts/namauser-is-not-in-the-sudoers-file.-this-incident-will-be-reported/</guid>
+      <description>&lt;p&gt;Masalah ini saya temukan, mungkin karena ada konflik dengan file konfigurasi pada folder /home saya (dari sistem operasi sebelumnya, Kubuntu 18.04) tapi ini insyaallah bisa di semua distro.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Begini Cara Mempercantik Tampilan Terminal Linux Anda</title>
+      <link>http://localhost:1313/posts/memasang-zsh-dan-oh-my-zsh-di-linux/</link>
+      <pubDate>Wed, 24 Jun 2020 21:25:08 +0700</pubDate>
+      <guid>http://localhost:1313/posts/memasang-zsh-dan-oh-my-zsh-di-linux/</guid>
+      <description>&lt;p&gt;Z Shell atau lebih dikenal dengan nama zsh adalah sebuah interactive UNIX shell seperti halnya bash yang biasa kita pakai.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

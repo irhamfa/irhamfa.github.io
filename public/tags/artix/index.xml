@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artix on Androcode</title>
+    <link>http://localhost:1313/tags/artix/</link>
+    <description>Recent content in Artix on Androcode</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Jan 2021 08:30:33 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/artix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manajemen Service Di Artix OpenRC</title>
+      <link>http://localhost:1313/service-di-artix-linux/</link>
+      <pubDate>Tue, 26 Jan 2021 08:30:33 +0700</pubDate>
+      <guid>http://localhost:1313/service-di-artix-linux/</guid>
+      <description>&lt;p&gt;Halo Semua kali ini saya akan membuat tulisan untukku sendiri atau sukur&amp;quot; dapat membantu teman&amp;quot; \u263A.&#xA;Saya menemukan masalah ketika saya mencoba distro linux Artix(OpenRC) saya cukup bingung gimana carannya manajemen service di artix yg saya sebelumnya dari archlinux, mungkin cukup mudah karna saya cukup familiar dan sudah banyak blog&amp;quot; yang membahasnya.&#xA;Saya akan meenginstall Mariadb dan bagaimana menjalankan servicnya di OpenRC.&lt;/p&gt;&#xA;&lt;h3 id=&#34;pertama-install-mariadb-terlebih-dahulu&#34;&gt;Pertama Install Mariadb terlebih dahulu&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S mariadb mariadb-OpenRC&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Dan untuk melihat daftar service bisa melalukan Perintah&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
