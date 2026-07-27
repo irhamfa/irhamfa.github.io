@@ -41,6 +41,11 @@ ignoreLogs = ['warning-goldmark-raw-html']
     "linux", "tailwindcss", "flask", "django", "html"
   ]
 
+[security]
+  [security.allowContent]
+    types = ['.*']
+
+
 [taxonomies]
   category = "categories"
   tag = "tags"
