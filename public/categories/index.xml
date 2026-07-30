@@ -6,8 +6,22 @@
     <description>Recent content in Categories on Androcode</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jul 2026 12:46:10 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 19:38:54 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips</title>
+      <link>http://localhost:1313/categories/tips/</link>
+      <pubDate>Thu, 30 Jul 2026 19:38:54 +0700</pubDate>
+      <guid>http://localhost:1313/categories/tips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pemrograman</title>
+      <link>http://localhost:1313/categories/pemrograman/</link>
+      <pubDate>Thu, 30 Jul 2026 19:36:31 +0700</pubDate>
+      <guid>http://localhost:1313/categories/pemrograman/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Tutorial</title>
       <link>http://localhost:1313/categories/tutorial/</link>
@@ -41,13 +55,6 @@
       <link>http://localhost:1313/categories/tailwindcss/</link>
       <pubDate>Thu, 04 Feb 2021 21:35:34 +0700</pubDate>
       <guid>http://localhost:1313/categories/tailwindcss/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tips</title>
-      <link>http://localhost:1313/categories/tips/</link>
-      <pubDate>Tue, 26 Jan 2021 08:30:33 +0700</pubDate>
-      <guid>http://localhost:1313/categories/tips/</guid>
       <description></description>
     </item>
     <item>

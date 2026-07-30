@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Androcode</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Androcode</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Jul 2026 19:20:28 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Thu, 30 Jul 2026 19:20:28 +0700</pubDate>
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laravel</title>
+      <link>http://localhost:1313/tags/laravel/</link>
+      <pubDate>Thu, 30 Jul 2026 19:20:28 +0700</pubDate>
+      <guid>http://localhost:1313/tags/laravel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Termux</title>
+      <link>http://localhost:1313/tags/termux/</link>
+      <pubDate>Thu, 30 Jul 2026 19:20:28 +0700</pubDate>
+      <guid>http://localhost:1313/tags/termux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tips</title>
+      <link>http://localhost:1313/tags/tips/</link>
+      <pubDate>Sat, 23 Jul 2022 02:39:04 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Django</title>
+      <link>http://localhost:1313/tags/django/</link>
+      <pubDate>Tue, 02 Mar 2021 14:37:50 +0700</pubDate>
+      <guid>http://localhost:1313/tags/django/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Tue, 02 Mar 2021 14:37:50 +0700</pubDate>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>http://localhost:1313/tags/css/</link>
+      <pubDate>Thu, 04 Feb 2021 21:35:34 +0700</pubDate>
+      <guid>http://localhost:1313/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tailwindcss</title>
+      <link>http://localhost:1313/tags/tailwindcss/</link>
+      <pubDate>Thu, 04 Feb 2021 21:35:34 +0700</pubDate>
+      <guid>http://localhost:1313/tags/tailwindcss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artix</title>
+      <link>http://localhost:1313/tags/artix/</link>
+      <pubDate>Tue, 26 Jan 2021 08:30:33 +0700</pubDate>
+      <guid>http://localhost:1313/tags/artix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Tue, 26 Jan 2021 08:30:33 +0700</pubDate>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phpmyadmin</title>
+      <link>http://localhost:1313/tags/phpmyadmin/</link>
+      <pubDate>Fri, 22 Jan 2021 09:48:19 +0700</pubDate>
+      <guid>http://localhost:1313/tags/phpmyadmin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Archlinux</title>
+      <link>http://localhost:1313/tags/archlinux/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      <guid>http://localhost:1313/tags/archlinux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mysql</title>
+      <link>http://localhost:1313/tags/mysql/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      <guid>http://localhost:1313/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nginx</title>
+      <link>http://localhost:1313/tags/nginx/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      <guid>http://localhost:1313/tags/nginx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Php</title>
+      <link>http://localhost:1313/tags/php/</link>
+      <pubDate>Wed, 20 Jan 2021 09:21:39 +0700</pubDate>
+      <guid>http://localhost:1313/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hosting</title>
+      <link>http://localhost:1313/tags/hosting/</link>
+      <pubDate>Fri, 23 Oct 2020 08:52:48 +0700</pubDate>
+      <guid>http://localhost:1313/tags/hosting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>http://localhost:1313/tags/html/</link>
+      <pubDate>Tue, 20 Oct 2020 14:19:55 +0700</pubDate>
+      <guid>http://localhost:1313/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sass</title>
+      <link>http://localhost:1313/tags/sass/</link>
+      <pubDate>Fri, 16 Oct 2020 14:01:29 +0700</pubDate>
+      <guid>http://localhost:1313/tags/sass/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flask</title>
+      <link>http://localhost:1313/tags/flask/</link>
+      <pubDate>Thu, 15 Oct 2020 20:47:41 +0700</pubDate>
+      <guid>http://localhost:1313/tags/flask/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>http://localhost:1313/tags/database/</link>
+      <pubDate>Tue, 15 Sep 2020 13:56:56 +0700</pubDate>
+      <guid>http://localhost:1313/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Text Editor</title>
+      <link>http://localhost:1313/tags/text-editor/</link>
+      <pubDate>Mon, 17 Aug 2020 13:20:54 +0700</pubDate>
+      <guid>http://localhost:1313/tags/text-editor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terminal</title>
+      <link>http://localhost:1313/tags/terminal/</link>
+      <pubDate>Wed, 24 Jun 2020 21:25:08 +0700</pubDate>
+      <guid>http://localhost:1313/tags/terminal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zsh</title>
+      <link>http://localhost:1313/tags/zsh/</link>
+      <pubDate>Wed, 24 Jun 2020 21:25:08 +0700</pubDate>
+      <guid>http://localhost:1313/tags/zsh/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

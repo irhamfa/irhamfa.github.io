@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Termux on Androcode</title>
+    <link>http://localhost:1313/tags/termux/</link>
+    <description>Recent content in Termux on Androcode</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Jul 2026 19:38:54 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/termux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Ubuntu Di Android</title>
+      <link>http://localhost:1313/install-ubuntu-di-android/</link>
+      <pubDate>Thu, 30 Jul 2026 19:38:54 +0700</pubDate>
+      <guid>http://localhost:1313/install-ubuntu-di-android/</guid>
+      <description>&lt;p&gt;Kali ini saya akan membagikan bagaimana cara install ubuntu di Android.&lt;br&gt;&#xA;Emang bisa ya ubuntu di install di android?&lt;br&gt;&#xA;Tentu bisa karena android itu pake kernel linux jadi bisa.&lt;br&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;apa-itu-ubuntu&#34;&gt;Apa itu Ubuntu?&lt;/h1&gt;&#xA;&lt;p&gt;Ubuntu adalah sistem operasi sumber terbuka (open-source) berbasis Linux yang populer dan gratis. Ia dikenal karena kemudahan penggunaan, dukungan komunitas yang luas, dan cocok untuk berbagai keperluan, mulai dari desktop, server, hingga pengembangan perangkat lunak.&lt;/p&gt;&#xA;&lt;h2 id=&#34;bagaimana-cara-install-ubuntu-di-android&#34;&gt;Bagaimana cara install ubuntu di android?&lt;/h2&gt;&#xA;&lt;p&gt;Jadi bagaimana cara install ubuntu di amdroid? &lt;br&gt;&#xA;carananya ada dg kita meng install apliksi termux terlebih dahulu, kita bisa download aplikasi termux lewat&lt;ins&gt; &lt;a href=&#34;https://f-droid.org/id/packages/com.termux/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;sini&lt;/em&gt;&lt;/a&gt;&#xA;.&lt;/ins&gt;&lt;br&gt;&#xA;Setelah itu bisa install seperti aplikasi biasa, kemudian buka termux yg sudah ter-install tadi.&lt;br&gt;&#xA;Setelah terbuka kita update dulu package nya dg melakukan perintah:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Laravel Di Termux</title>
+      <link>http://localhost:1313/laravel-termux/</link>
+      <pubDate>Thu, 30 Jul 2026 19:20:28 +0700</pubDate>
+      <guid>http://localhost:1313/laravel-termux/</guid>
+      <description>&lt;p&gt;Laravel adalah kerangka kerja aplikasi web berbasis PHP yang sumber terbuka, menggunakan konsep Model-View-Controller.&lt;/p&gt;&#xA;&lt;h2 id=&#34;apa-itu-laravel&#34;&gt;Apa Itu Laravel&lt;/h2&gt;&#xA;&lt;p&gt;Laravel merupakan framework PHP yang open-source dan berisi banyak modul dasar&#xA;untuk mengoptimalkan kinerja PHP dalam pengembangan aplikasi web, apalagi PHP&#xA;adalah bahasa pemrograman yang dinamis dan Laravel disini bisa bertindak untuk&#xA;membuat web development lebih cepat, lebih aman, dan lebih simpel.&lt;br&gt;&#xA;Framework ini diluncurkan pada tanggal 9 Juni 2011 oleh Taylor Otwell. Awalnya&#xA;tujuan dari Laravel adalah sebagai alternatif dari Codelgniter. Taylor Otwell&#xA;melihat bahwa framework PHP lainnya yaitu Codelgniter belum menyediakan fitur&#xA;tertentu seperti dukungan bawaan untuk otentikasi dan otorisasi pengguna. Sejak&#xA;saat itu Laravel sudah mengeluarkan berbagai pembaruan dan penambahan fitur.&#xA;Saat ini laravel sudah sampai ke versi 11.&lt;br &gt;&#xA;Laravel sendiri bekerja di sisi back-end atau istilahnya server-side. Selain powerful, Laravel juga mudah untuk dimengerti. Dengan mengikuti pola arsitektur model-view-controller (MVC) Laravel bisa mempercepat proses pembuatan aplikasi web.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

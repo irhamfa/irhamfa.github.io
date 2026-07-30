@@ -15,7 +15,7 @@ thumbnail: /img/place.svg"
 ---
 ## Apa Itu Bun 
 Bun adalah runtime baru untuk javascript seperti node dan deno.
-Menurut website {{ newtabref  href="https://bun.sh?ref=androcode.my.id" title="bun sh" }}, Bun lebih cepat dari node dan deno.</br>
+Menurut website {{< newtabref  href="https://bun.sh?ref=irha.my.id" title="bun sh" >}}, Bun lebih cepat dari node dan deno.</br>
 ![bun image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ7ylZsTYyZkm3hzS8qi4BBGfoyh9MDd4NIEVUvXAO9U2S35vRunGrA5LmbQKu8-yoIPmhDcMe6JSfwNitjJWArrYHQ2qU9w1p0S-Pm-tlmCN6EItIGkmnpEZOheFJ8UqR12r7yj-W88FEj3U_ROQydDgjddmFjpXh9f9LbGaXDcCTZuNQ3HvHs4TBmg/s720/Screenshot_20220714-202718985%20(1).jpg)
 
 ## install Bun

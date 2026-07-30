@@ -6,8 +6,15 @@
     <description>Recent content in Linux on Androcode</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Jan 2021 08:30:33 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 19:29:36 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atur Waktu Di Linux</title>
+      <link>http://localhost:1313/waktu-di-linux/</link>
+      <pubDate>Thu, 30 Jul 2026 19:29:36 +0700</pubDate>
+      <guid>http://localhost:1313/waktu-di-linux/</guid>
+      <description>&lt;p&gt;Bagaimana caa mengatur Date&amp;amp;Time di linux(CLI)?&#xA;sebenernya sangat mudah tetapi karena kita sering mengaturnya di pengaturan jadi lupa&#xA;Saya sebenernya juga lupa makannya membuat post ini hehehe.&#xA;Langsung aja.&lt;/p&gt;&#xA;&lt;p&gt;Cara cek waktu kita di terminal cukup mudah cukup ketik &lt;strong&gt;date&lt;/strong&gt; nanti keluar &lt;code&gt;Date&amp;amp;time&lt;/code&gt; seperti di bawah.&#xA;&lt;img src=&#34;priview&#34; alt=&#34;https://i.postimg.cc/fbV9b4dx/date.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jadi untuk mengaturnya cukup ketikkan:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date --set 2024-08-05 &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Dan untuk jam nya.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date --set 19:30:0 &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Dan untuk cek tinggal ketik &lt;strong&gt;date&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Manajemen Service Di Artix OpenRC</title>
       <link>http://localhost:1313/service-di-artix-linux/</link>

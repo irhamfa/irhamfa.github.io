@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on Androcode</title>
+    <link>http://localhost:1313/tags/rust/</link>
+    <description>Recent content in Rust on Androcode</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Jul 2026 19:36:31 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bahasa Pemrograman Rust</title>
+      <link>http://localhost:1313/pemrograman-rust/</link>
+      <pubDate>Thu, 30 Jul 2026 19:36:31 +0700</pubDate>
+      <guid>http://localhost:1313/pemrograman-rust/</guid>
+      <description>&lt;p&gt;Halo teman teman, udah lama ga nulis,&#xA;saya sekarang mau belajar bahasa pemrograman yg lagi ramai, yaitu rust, ikut fomo ini hehe.&lt;/p&gt;&#xA;&lt;h1 id=&#34;apa-itu-rust&#34;&gt;Apa itu Rust?&lt;/h1&gt;&#xA;&lt;p&gt;Ruat adalah bahasa pemrograman. &lt;br&gt;&#xA;Tapi bahasa pemrograman yg seperti apa? &lt;br&gt;&#xA;nah sekarang kita cari tau yg lebih dalam supaya makin kenal.&lt;br&gt;&#xA;Rust adalah bahasa pemrograman yang menggunakan multi-paradigma. Artinya, kita bisa menulis kode rust dengan gaya OOP &lt;em&gt;(Object Oriented Programming)&lt;/em&gt;, Function, Prosedural, dan sebagainya.&lt;br&gt;&#xA;Selain multi-paradigma, Rust juga merupakan bahasa pemrograman yang cepat dan aman.&lt;br&gt;&#xA;Rust merupakan bahasa pemrograman yang aman, performanya cepat, dan mendukung multi-paradigma.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
