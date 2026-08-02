@@ -6,20 +6,20 @@
     <description>Recent content in Categories on Androcode</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2026 19:38:54 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 18:42:13 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pemrograman</title>
+      <link>http://localhost:1313/categories/pemrograman/</link>
+      <pubDate>Sun, 02 Aug 2026 18:42:13 +0700</pubDate>
+      <guid>http://localhost:1313/categories/pemrograman/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Tips</title>
       <link>http://localhost:1313/categories/tips/</link>
       <pubDate>Thu, 30 Jul 2026 19:38:54 +0700</pubDate>
       <guid>http://localhost:1313/categories/tips/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pemrograman</title>
-      <link>http://localhost:1313/categories/pemrograman/</link>
-      <pubDate>Thu, 30 Jul 2026 19:36:31 +0700</pubDate>
-      <guid>http://localhost:1313/categories/pemrograman/</guid>
       <description></description>
     </item>
     <item>
