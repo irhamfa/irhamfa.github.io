@@ -10,7 +10,7 @@ tags:
 categories:
     - Pemrograman
 
-image: "/img/place.svg"
+featuredImage: "/img/place.svg"
 thumbnail: /img/place.svg"
 ---
 

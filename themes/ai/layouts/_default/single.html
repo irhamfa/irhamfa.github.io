@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="post">
+<article class="container post">
   <header class="post-header">
     <h1 class="post-title">{{ .Title }}</h1>
     {{ if not .Date.IsZero }}
@@ -15,12 +15,12 @@
   <img class="post-featured-image" src="{{ .Params.featuredImage | relURL }}" alt="{{ .Title }}" loading="lazy" width="1200" height="630">
   {{ end }}
 
-  <div class="post-content">
+  <div class="container post-content">
     {{ .Content }}
   </div>
 
   {{ if .Params.tags }}
-  <div class="post-tags">
+  <div class="post-tags container">
     {{ range .Params.tags }}
     <a class="tag" href="{{ "tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
     {{ end }}
@@ -30,7 +30,7 @@
 
 {{ $related := .Site.RegularPages.Related . | first 3 }}
 {{ with $related }}
-<section class="related-posts">
+<section class="related-posts container">
   <h2>Artikel Terkait</h2>
   <ul>
     {{ range . }}
