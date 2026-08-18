@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ if .Content }}
+<section class="home-intro">
+  {{ .Content }}
+</section>
+{{ end }}
+
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+<div class="post-list">
+  {{ range $paginator.Pages }}
+  <article class="post-card">
+    {{ if .Params.featuredImage }}
+    <a href="{{ .RelPermalink }}" class="post-card-image-link">
+      <img src="{{ .Params.featuredImage | relURL }}" alt="{{ .Title }}" loading="lazy" width="400" height="220">
+    </a>
+    {{ end }}
+    <div class="post-card-body">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      {{ if not .Date.IsZero }}
+      <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></p>
+      {{ end }}
+      <p class="post-excerpt">{{ .Summary | plainify | truncate 140 }}</p>
+      <a class="read-more" href="{{ .RelPermalink }}">Baca selengkapnya &rarr;</a>
+    </div>
+  </article>
+  {{ else }}
+  <p>Belum ada artikel. Tambahkan konten di folder <code>content/posts/</code>.</p>
+  {{ end }}
+</div>
+
+{{ template "_internal/pagination.html" . }}
+{{ end }}

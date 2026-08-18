@@ -1,10 +1,6 @@
 # Blogger Sitemap created on Sat, 23 Jul 2022 15:07:21 GMT
 # Sitemap built with https://www.labnol.org/blogger/sitemap
-
 User-agent: *
-Disallow: /search
 Allow: /
 
-Sitemap: https://androcodemedia.blogspot.com/atom.xml?redirect=false&start-index=1&max-results=500
-Sitemap: https://androcodemedia.blogspot.com/atom.xml?redirect=false&start-index=501&max-results=500
-Sitemap: https://androcodemedia.blogspot.com/atom.xml?redirect=false&start-index=1001&max-results=500
+Sitemap: /sitemap.xml

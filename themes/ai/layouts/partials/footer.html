@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container site-footer-inner">
+    <p>&copy; {{ now.Year }} {{ .Site.Title }}. Hak cipta dilindungi.</p>
+    <nav class="footer-nav">
+      <ul>
+        {{ range .Site.Menus.footer }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</footer>

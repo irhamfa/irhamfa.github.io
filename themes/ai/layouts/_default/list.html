@@ -1,0 +1,28 @@
+{{ define "main" }}
+<header class="list-header">
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="list-description">{{ . }}</div>{{ end }}
+</header>
+
+<div class="post-list">
+  {{ range .Paginator.Pages }}
+  <article class="post-card">
+    {{ if .Params.featuredImage }}
+    <a href="{{ .RelPermalink }}" class="post-card-image-link">
+      <img src="{{ .Params.featuredImage | relURL }}" alt="{{ .Title }}" loading="lazy" width="400" height="220">
+    </a>
+    {{ end }}
+    <div class="post-card-body">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      {{ if not .Date.IsZero }}
+      <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></p>
+      {{ end }}
+      <p class="post-excerpt">{{ .Summary | plainify | truncate 140 }}</p>
+      <a class="read-more" href="{{ .RelPermalink }}">Baca selengkapnya &rarr;</a>
+    </div>
+  </article>
+  {{ end }}
+</div>
+
+{{ template "_internal/pagination.html" . }}
+{{ end }}

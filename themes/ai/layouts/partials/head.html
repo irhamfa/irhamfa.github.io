@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with .Site.Params.logo }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{ .Summary | plainify | truncate 160 }}{{ end }}">
+
+{{ if .IsHome }}
+<link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | relURL }}" title="{{ .Site.Title }}">
+{{ end }}
+
+<link rel="icon" href="{{ "favicon.ico" | relURL }}">
+
+<!-- CSS ringan, satu file, tanpa framework berat -->
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+
+{{ with .Site.Params.googleSiteVerification }}
+<meta name="google-site-verification" content="{{ . }}">
+{{ end }}
+
+<!--
+  ADSENSE: setelah akun disetujui, aktifkan Site.Params.adsenseClientID
+  di config (hugo.toml) dan skrip resmi AdSense akan otomatis dimuat
+  lewat partial "ads-head.html" di bawah ini.
+-->
+{{ partial "ads-head.html" . }}
+
+{{ block "head_extra" . }}{{ end }}

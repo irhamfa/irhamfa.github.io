@@ -1,0 +1,14 @@
+{{/*
+  Skrip resmi Google AdSense hanya dimuat kalau kamu mengisi
+  adsenseClientID di hugo.toml, contoh:
+
+  [params]
+    adsenseClientID = "ca-pub-1234567890123456"
+
+  Sebelum akun disetujui, biarkan kosong supaya situs tetap
+  bersih dan cepat saat direview.
+*/}}
+{{ with .Site.Params.adsenseClientID }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}"
+        crossorigin="anonymous"></script>
+{{ end }}

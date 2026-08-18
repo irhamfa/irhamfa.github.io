@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<title>Belajar Sass : Simbol &amp; pada Sass — Androcode</title>
+
+<meta name="description" content="Sebelum mempelajari simbol &amp;, mari kita meninjau ulang :hover dan :active. Keadaan dimana kursor berada di atas element disebut hover.
+">
+<meta name="author" content="Irham">
+<link rel="canonical" href="http://localhost:1313/posts/belajar-sass-_-simbol/">
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Belajar Sass : Simbol &amp; pada Sass">
+<meta property="og:description" content="Sebelum mempelajari simbol &amp;, mari kita meninjau ulang :hover dan :active. Keadaan dimana kursor berada di atas element disebut hover.
+">
+<meta property="og:url" content="http://localhost:1313/posts/belajar-sass-_-simbol/">
+
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Belajar Sass : Simbol &amp; pada Sass">
+<meta name="twitter:description" content="Sebelum mempelajari simbol &amp;, mari kita meninjau ulang :hover dan :active. Keadaan dimana kursor berada di atas element disebut hover.
+">
+
+
+
+<link rel="icon" href="/favicon.ico">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Langsung ke konten</a>
+
+  <header class="site-header">
+  <div class="container site-header-inner">
+    <a class="site-brand" href="http://localhost:1313/">
+      
+        <span class="site-title">Androcode</span>
+      
+    </a>
+
+    <nav id="site-nav" class="site-nav">
+      <ul>
+        
+        <li><a href="/categories" >Categories</a></li>
+        
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button id="search-toggle" class="search-toggle" aria-label="Buka pencarian" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5L20.49 19zm-6 0A4.5 4.5 0 1 1 14 9.5A4.5 4.5 0 0 1 9.5 14"/>
+        </svg>
+      </button>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+  
+
+
+  <main id="main-content" class="site-main container">
+    
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">Belajar Sass : Simbol &amp; pada Sass</h1>
+    
+    <p class="post-meta">
+      <time datetime="2020-10-19">19 October 2020</time>
+      
+       &middot; 1 menit baca
+    </p>
+    
+  </header>
+
+  
+
+  <div class="post-content">
+    <p>Sebelum mempelajari simbol &amp;, mari kita meninjau ulang :hover dan :active. Keadaan dimana kursor berada di atas element disebut hover.</p>
+<p>Pada CSS, dengan selector:hover, Anda dapat menerapkan CSS spesifik saat kursor menghover sebuah element.</p>
+<h2 id="active">Active</h2>
+<p>Dengan menggunakan active dengan selector, CSS dapat diterapkan hanya jika element diklik. Ini dapat dilakukan dengan sintaksis: selector:active.</p>
+<h2 id="simbol-">Simbol &amp;</h2>
+<p>Dengan nesting, Anda dapat menulis ulang selector:hover sebagai &amp;:hover, seperti ditunjukkan di bawah. Ingat bahwa <em>&amp;</em> bisa digunakan dengan selector apapun - hover, active, dan lain-lain.</p>
+<h3 id="contoh">contoh</h3>
+<p><em>index.html</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width, initial-scale=1.0&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;style.sass&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;style.css&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">title</span>&gt;Belajar Scss &lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>   	&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;main&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  		&lt;<span style="color:#f92672">h3</span>&gt;Ayo belajar SASS!&lt;/<span style="color:#f92672">h3</span>&gt;
+</span></span><span style="display:flex;"><span>  		&lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span>&gt;Mulai Belajar&lt;/<span style="color:#f92672">span</span>&gt;
+</span></span><span style="display:flex;"><span>	&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
+</span></span></code></pre></div><p><em>style.scss</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="color:#a6e22e">.main</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">margin</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">text-align</span><span style="color:#f92672">:</span> center;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">h3</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">margin-bottom</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">color</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">#555</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">.button</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">display</span><span style="color:#f92672">:</span> inline-block;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">padding</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">8</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">24</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">color</span><span style="color:#f92672">:</span> white;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">opacity</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span><span style="color:#ae81ff">.8</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">border-radius</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">4</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">background-color</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">#f778b8</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cursor</span><span style="color:#f92672">:</span> pointer;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">box-shadow</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">#e04893</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">&amp;</span><span style="color:#a6e22e">:hover</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">opacity</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">&amp;</span><span style="color:#a6e22e">:active</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">position</span><span style="color:#f92672">:</span> relative;
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">top</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">7</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">box-shadow</span><span style="color:#f92672">:</span> none;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+  </div>
+
+  
+  <div class="post-tags">
+    
+    <a class="tag" href="/tags/sass">#sass</a>
+    
+    <a class="tag" href="/tags/css">#css</a>
+    
+  </div>
+  
+</article>
+
+
+
+<section class="related-posts">
+  <h2>Artikel Terkait</h2>
+  <ul>
+    
+    <li><a href="/posts/belajar-_-sass/">Belajar : Sass</a></li>
+    
+  </ul>
+</section>
+
+
+  </main>
+
+  
+
+
+  <footer class="site-footer">
+  <div class="container site-footer-inner">
+    <p>&copy; 2026 Androcode. Hak cipta dilindungi.</p>
+    <nav class="footer-nav">
+      <ul>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  <div id="search-overlay" class="search-overlay" hidden>
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Pencarian">
+    <div class="search-box-top">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+        <path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5L20.49 19zm-6 0A4.5 4.5 0 1 1 14 9.5A4.5 4.5 0 0 1 9.5 14"/>
+      </svg>
+      <input type="search" id="search-input" placeholder="Cari artikel..." autocomplete="off" spellcheck="false">
+      <button id="search-close" class="search-close" aria-label="Tutup pencarian">&times;</button>
+    </div>
+    <ul id="search-results" class="search-results"></ul>
+    <p id="search-status" class="search-status"></p>
+  </div>
+</div>
+
+
+  <script>window.searchIndexURL = "\/index.json";</script>
+  <script src="/js/main.js" defer></script>
+  <script src="/js/search.js" defer></script>
+</body>
+</html>

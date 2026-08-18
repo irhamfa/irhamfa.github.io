@@ -1,0 +1,13 @@
+{{- $pages := where .Site.RegularPages "Type" "posts" -}}
+[
+{{- range $index, $page := $pages -}}
+  {{- if $index }},{{ end -}}
+  {
+    "title": {{ .Title | jsonify }},
+    "url": {{ .RelPermalink | jsonify }},
+    "date": {{ .Date.Format "2 January 2006" | jsonify }},
+    "summary": {{ .Summary | plainify | truncate 160 | jsonify }},
+    "content": {{ .Plain | truncate 2000 | jsonify }}
+  }
+{{- end -}}
+]

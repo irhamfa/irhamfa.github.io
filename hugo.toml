@@ -7,7 +7,7 @@ MetaDataFormat = "yaml"
 
 # untuk apply temanya
 themesDir = "themes"
-theme = "wewe"
+theme = "ai"
 
 # Shortname disqus, silahkan sesuaikan
 DisqusShortname = "irhamidn"
@@ -17,9 +17,67 @@ googleAnalytics = "G-NKBLBPPY63"
 
 ignoreLogs = ['warning-goldmark-raw-html']
 
-[markup.goldmark.renderer]
-  unsafe = true
 
+# Pagination
+[pagination]
+  pagerSize = 8
+
+  # --- AdSense ---
+  # Kosongkan dulu sampai akun disetujui, supaya situs tetap
+  # bersih & cepat saat direview oleh tim AdSense.
+  adsenseClientID = "pub-3326955000767355"   # contoh: "ca-pub-1234567890123456"
+  adSlotTop = ""
+  adSlotBottom = ""
+  adSlotArticle = ""
+
+  # Verifikasi Google Search Console (opsional tapi disarankan)
+  googleSiteVerification = "7Dk8iV2OnDL5TMjJ-G3R6b65As84eDfNQrpmrfeGz04"
+
+[menu]
+  [[menu.main]]
+    name = "Beranda"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Tentang"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Kontak"
+    url = "/contact/"
+    weight = 4
+
+  [[menu.footer]]
+    name = "Kebijakan Privasi"
+    url = "/privacy-policy/"
+    weight = 1
+  [[menu.footer]]
+    name = "Disclaimer"
+    url = "/disclaimer/"
+    weight = 2
+  [[menu.footer]]
+    name = "Kontak"
+    url = "/contact/"
+    weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+[minify]
+  disableXML = true
+
+# Aktifkan output JSON di beranda untuk index pencarian (/index.json)
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 # Untuk deskripsi tag meta di homepage
 # Biodata Author
@@ -43,19 +101,6 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [security]
   allowContent = ['^text/.*']
-
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
-
-[outputs]
-  section = ["html", "rss", "json"]
-
-[[menu.main]]
-    name = "Categories"
-    url = "/categories"
 
 enableRobotsTXT = true
 

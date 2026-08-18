@@ -1,0 +1,12 @@
+name = "Ringan"
+license = "MIT"
+licenselink = "https://github.com/yourusername/hugo-theme-ringan/blob/main/LICENSE"
+description = "Tema Hugo yang sederhana, ringan, dan responsive — dioptimalkan untuk kecepatan dan kemudahan approval Google AdSense."
+homepage = "https://github.com/yourusername/hugo-theme-ringan"
+tags = ["blog", "responsive", "minimal", "lightweight", "adsense", "fast", "seo"]
+features = ["responsive", "seo", "fast", "dark-mode-ready", "adsense-ready"]
+min_version = "0.112.0"
+
+[author]
+  name = "Nama Anda"
+  homepage = "https://example.com"

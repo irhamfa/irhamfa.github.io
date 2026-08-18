@@ -1,0 +1,70 @@
+baseURL = "https://contoh-situs-anda.com/"
+languageCode = "id-ID"
+title = "Nama Situs Anda"
+theme = "hugo-theme-ringan"
+
+# Pagination
+[pagination]
+  pagerSize = 8
+
+# Aktifkan output JSON di beranda untuk index pencarian (/index.json)
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  description = "Deskripsi singkat situs Anda, 1-2 kalimat, untuk SEO dan meta description."
+  author = "Nama Anda"
+  logo = "" # contoh: "images/logo.png" (taruh file di /static/images/)
+
+  # --- AdSense ---
+  # Kosongkan dulu sampai akun disetujui, supaya situs tetap
+  # bersih & cepat saat direview oleh tim AdSense.
+  adsenseClientID = ""   # contoh: "ca-pub-1234567890123456"
+  adSlotTop = ""
+  adSlotBottom = ""
+  adSlotArticle = ""
+
+  # Verifikasi Google Search Console (opsional tapi disarankan)
+  googleSiteVerification = ""
+
+[menu]
+  [[menu.main]]
+    name = "Beranda"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Tentang"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Kontak"
+    url = "/contact/"
+    weight = 4
+
+  [[menu.footer]]
+    name = "Kebijakan Privasi"
+    url = "/privacy-policy/"
+    weight = 1
+  [[menu.footer]]
+    name = "Disclaimer"
+    url = "/disclaimer/"
+    weight = 2
+  [[menu.footer]]
+    name = "Kontak"
+    url = "/contact/"
+    weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+[minify]
+  disableXML = true

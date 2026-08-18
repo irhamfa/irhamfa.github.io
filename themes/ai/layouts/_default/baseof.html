@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "id" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Langsung ke konten</a>
+
+  {{ partial "header.html" . }}
+
+  {{ partial "ads-top.html" . }}
+
+  <main id="main-content" class="site-main container">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "ads-bottom.html" . }}
+
+  {{ partial "footer.html" . }}
+
+  <script>window.searchIndexURL = "{{ "index.json" | relURL }}";</script>
+  <script src="{{ "js/main.js" | relURL }}" defer></script>
+  <script src="{{ "js/search.js" | relURL }}" defer></script>
+</body>
+</html>
