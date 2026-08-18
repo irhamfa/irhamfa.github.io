@@ -37,6 +37,14 @@
   di config (hugo.toml) dan skrip resmi AdSense akan otomatis dimuat
   lewat partial "ads-head.html" di bawah ini.
 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NKBLBPPY63"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NKBLBPPY63');
+</script>
 {{ partial "ads-head.html" . }}
 
 {{ block "head_extra" . }}{{ end }}
