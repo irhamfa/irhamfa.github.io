@@ -275,18 +275,32 @@
       <description>&lt;h2 id=&#34;hallo&#34;&gt;Hallo&amp;hellip;&lt;/h2&gt;&#xA;&lt;p&gt;ini About, mungkin blog ini belum baik atau ada beberapa link atau tautan yang belum dapat di akses&#xA;saya sadar akan hal itu, maka dari itu saya memberanikan mebuat blog ini.&#xA;Dan kedepannya Mungkin ada perbaikan secara berkala  🙂&lt;/p&gt;&#xA;&lt;h2 id=&#34;kepnapa-&#34;&gt;Kepnapa ?&lt;/h2&gt;&#xA;&lt;p&gt;kenapa saya mebuat blog ini ? Bisa di bilang saya membuat blog ini untuk menulis hasil belajar saya atau kata orang itu &lt;em&gt;mengikat ilmu&lt;/em&gt;, ya emang betul, jadi mungkit tulisannya masih belum rapi karena ini berdasarkan pemahaman saya  🙂&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Sat, 29 May 2010 15:06:31 +0700</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;script type=&#34;text/javascript&#34; defer src=&#34;https://form.123formbuilder.com/embed/5754651.js&#34; data-role=&#34;form&#34; data-default-width=&#34;650px&#34;&gt;&#xA;&lt;/script&gt;</description>
-    </item>
-    <item>
       <title>Search</title>
       <link>http://localhost:1313/search/</link>
       <pubDate>Sat, 29 May 2010 15:06:31 +0700</pubDate>
       <guid>http://localhost:1313/search/</guid>
       <description>&lt;script async src=&#34;https://cse.google.com/cse.js?cx=47ff8b3360f9242fa&#34;&gt;&#xA;&lt;/script&gt;&#xA;&lt;div class=&#34;gcse-search&#34;&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Disclaimer</title>
+      <link>http://localhost:1313/disclaimer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/disclaimer/</guid>
+      <description>&lt;p&gt;Informasi yang dipublikasikan di &lt;strong&gt;Androcode&lt;/strong&gt; (irha.my.id) bersifat pribadi&#xA;dan merupakan catatan pembelajaran penulis (Irham) di bidang pemrograman,&#xA;sistem operasi, dan teknologi terkait. Seluruh konten disediakan hanya untuk&#xA;tujuan edukasi dan informasi umum.&lt;/p&gt;&#xA;&lt;p&gt;Semua tutorial dan panduan di situs ini kami tulis dengan itikad baik&#xA;berdasarkan pengalaman dan pemahaman pribadi penulis, namun kami tidak&#xA;memberikan jaminan apa pun mengenai keakuratan, kelengkapan, atau&#xA;kemutakhiran informasi tersebut. Perangkat lunak, perintah, atau konfigurasi&#xA;yang dibahas dapat berubah seiring waktu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kebijakan Privasi</title>
+      <link>http://localhost:1313/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/privacy-policy/</guid>
+      <description>&lt;p&gt;Terakhir diperbarui: 22 Agustus 2026&lt;/p&gt;&#xA;&lt;p&gt;Privasi Anda penting bagi kami. Kebijakan Privasi ini menjelaskan jenis data&#xA;yang dikumpulkan oleh &lt;strong&gt;Androcode&lt;/strong&gt; (irha.my.id) — situs pribadi yang&#xA;dikelola oleh Irham — serta bagaimana data tersebut digunakan.&lt;/p&gt;&#xA;&lt;h2 id=&#34;informasi-yang-kami-kumpulkan&#34;&gt;Informasi yang Kami Kumpulkan&lt;/h2&gt;&#xA;&lt;p&gt;Situs ini dapat mengumpulkan informasi non-pribadi seperti jenis browser,&#xA;halaman yang dikunjungi, dan waktu kunjungan melalui alat analitik web&#xA;(misalnya Google Analytics), untuk membantu kami memahami bagaimana&#xA;pengunjung menggunakan situs ini.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cookie-dan-iklan-pihak-ketiga&#34;&gt;Cookie dan Iklan Pihak Ketiga&lt;/h2&gt;&#xA;&lt;p&gt;Situs ini dapat menampilkan iklan yang disediakan oleh &lt;strong&gt;Google AdSense&lt;/strong&gt;.&#xA;Google, sebagai vendor pihak ketiga, menggunakan cookie untuk menayangkan&#xA;iklan kepada pengunjung berdasarkan kunjungan mereka sebelumnya ke situs ini&#xA;maupun situs-situs lain di internet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kontak</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Punya pertanyaan seputar artikel di Androcode, menemukan kesalahan pada&#xA;tutorial, atau ingin sekadar menyapa? Silakan hubungi saya melalui:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:hai@irha.my.id&#34;&gt;hai@irha.my.id&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/irhamfa&#34;&gt;github.com/irhamfa&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Saya biasanya membalas dalam 1–3 hari kerja. Terima kasih sudah berkunjung&#xA;ke Androcode!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tags</title>
