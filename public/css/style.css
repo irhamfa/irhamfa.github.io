@@ -306,3 +306,8 @@ mark {
 @media (min-width: 641px) {
   .post-list { grid-template-columns: 1fr; }
 }
+
+pre {
+  overflow-x: scroll;
+  direction: rounded;
+}
